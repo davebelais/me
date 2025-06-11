@@ -83,8 +83,6 @@ Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
 
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
-Data Products:
-
 -   Lead development of data products distilling and exposing analytics to
     buyers and planners correlating digital and store sales and EBITDA with
     inventory,sell-through, prices, and promotional events&#8212;contributing
@@ -96,8 +94,6 @@ industry usage, for clarity. My official title was "Senior Manager, Web &
 Digital Analytics".
 
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
-
-Data Products:
 
 -   Lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
     Python, SQLAlchemy)
