@@ -11,7 +11,9 @@ install:
 build:
 	{ hatch --version || pipx install --upgrade hatch || python3 -m pip install --upgrade hatch ; } && \
 	hatch run python scripts/md2pdf.py && \
-	rm docs/index.html && \
+	{ rm docs/resume.html || true ; } && \
+	mv docs/index.html docs/resume.html && \
+	{ rm docs/resume.pdf || true ; } && \
 	mv docs/index.pdf docs/resume.pdf && \
 	echo "Build complete"
 
