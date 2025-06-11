@@ -68,7 +68,7 @@ Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
     data products based on ORM metadata, securely retrieve managed credentials,
     and many other common and specialized development tasks.
 
-### BICP @ Nike | Lead Data Engineer, Sustainability Analytics | January 2020 - March 2021
+### BICP @ Nike | Lead Data Engineer, Sustainability Analytics | March 2020 - March 2021
 
 -   Developed a SQLAlchemy-ORM-based framework for automating deployment and
     versioning (schema migration) supporting all database dialects leveraged
