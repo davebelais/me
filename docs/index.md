@@ -8,7 +8,7 @@
 ## Summary
 
 I am a highly productive software and data engineer with 18 years of
-experience, including 15 years working in complex, matrixed, enterprise
+experience, including 15 years working in complex, matrixed, enterprisef
 organizations. I pride myself in authoring elegant, bulletproof,
 type-annotated, well-formed, thoroughly tested, distributable Python
 libraries and applications, and designing efficient, maintainable, systems
@@ -18,7 +18,7 @@ rock-solid asynchronous web APIs.
 
 ## Experience
 
-### Nike | Lead Data Engineer, Sustainability Analytics | March 2021 - June 2026
+### Nike | Lead Data Engineer, Sustainability Analytics | March 2021 - June 2025
 
 Data Products:
 
