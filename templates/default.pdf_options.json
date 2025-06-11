@@ -1,0 +1,7 @@
+{
+    "--format": "Letter",
+    "--marginTop": "0.5in",
+    "--marginRight": "0.5in",
+    "--marginBottom": "0.5in",
+    "--marginLeft": "0.5in"
+}
