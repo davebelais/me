@@ -9,15 +9,15 @@ on:
     - .github/workflows/build.yml
     - mkdocs.yaml
 jobs:
-  distribute:
+  build:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - run: apt-get install wkhtmltopdf
     - name: Install Hatch
       uses: pypa/hatch@install
+    - run: make
     - name: Build and deploy documentation
       run: hatch run mkdocs gh-deploy --force
 
