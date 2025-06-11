@@ -3,7 +3,7 @@ site_url: https://david.belais.me
 repo_url: https://github.com/davebelais/me
 edit_uri: blob/main/docs/
 nav:
-- Resume: 'resume.md'
+- Resume: 'index.md'
 - Open Source Projects:
   - dependence: https://dependence.enorganic.org/
   - oapi: https://oapi.enorganic.org/
