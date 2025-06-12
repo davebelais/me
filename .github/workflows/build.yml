@@ -8,14 +8,12 @@ jobs:
   build:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v4
     - name: Install Hatch
       uses: pypa/hatch@install
     - uses: browser-actions/setup-chrome@v1
-    - name: Install Puppeteer dependencies
-      run: sudo sh scripts/install-puppeteer-ubuntu-dependencies.sh
     - run: make build
     - name: Build and deploy documentation
       run: hatch run mkdocs gh-deploy --force
