@@ -86,6 +86,7 @@ def html2pdf(
     check_call(
         (
             install_chromehtml2pdf(),
+            "--no-sandbox",
             "--out",
             str(pdf_path),
             *chain(*options.items()),
