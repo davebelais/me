@@ -3,11 +3,12 @@ import argparse
 import json
 import os
 from collections.abc import Iterable, Iterator
+from functools import cache
 from glob import iglob
 from itertools import chain
 from pathlib import Path
 from shutil import which
-from subprocess import check_output
+from subprocess import CalledProcessError, check_call
 from urllib.parse import quote_plus
 
 import markdown
@@ -29,6 +30,35 @@ def md2html(md: str, template_path: Path = DEFAULT_TEMPLATE_PATH) -> str:
     )
     with open(template_path) as template_io:
         return template_io.read().replace("{{body}}", html)
+
+
+@cache
+def install_chromehtml2pdf() -> str:
+    """
+    Install an npm package exposing the command `dbml-renderer`
+    """
+    chromehtml2pdf: str | None = which("chromehtml2pdf")
+    if chromehtml2pdf:
+        return chromehtml2pdf
+    try:
+        check_call(
+            (
+                "chromehtml2pdf",
+                "-h",
+            )
+        )
+    except (CalledProcessError, FileNotFoundError):
+        check_call(
+            (
+                which("npm") or "npm",
+                "install",
+                "-g",
+                "chromehtml2pdf",
+            )
+        )
+        return which("chromehtml2pdf") or "chromehtml2pdf"
+    else:
+        return "chromehtml2pdf"
 
 
 def html2pdf(
@@ -53,9 +83,9 @@ def html2pdf(
         ).replace("\\", "/"),
         safe="/=",
     )
-    check_output(
+    check_call(
         (
-            which("chromehtml2pdf") or "chromehtml2pdf",
+            install_chromehtml2pdf(),
             "--out",
             str(pdf_path),
             *chain(*options.items()),
