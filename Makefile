@@ -7,8 +7,8 @@ install:
 	npm install -g chromehtml2pdf && \
 	echo "Install complete"
 
-# Build resumes
-build:
+# Build PDFs
+pdf:
 	{ hatch --version || pipx install --upgrade hatch || python3 -m pip install --upgrade hatch ; } && \
 	hatch run python scripts/md2pdf.py && \
 	{ rm docs/resume.html || true ; } && \

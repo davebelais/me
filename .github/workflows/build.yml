@@ -14,7 +14,7 @@ jobs:
     - name: Install Hatch
       uses: pypa/hatch@install
     - uses: browser-actions/setup-chrome@v1
-    - run: make build
+    - run: make pdf
     - name: Build and deploy documentation
       run: hatch run mkdocs gh-deploy --force
 
