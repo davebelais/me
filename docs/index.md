@@ -9,12 +9,26 @@
 
 I am a highly productive software and data engineer with 18 years of
 experience, including 15 years working in complex, matrixed, enterprise
-organizations. I pride myself in authoring elegant, bulletproof,
-type-annotated, well-formed, thoroughly tested, distributable Python
-libraries and applications, and designing efficient, maintainable, systems
-which hold up over time. I have extensive experience with Spark and
-Databricks, myriad analytics and relational databases, and in building
-rock-solid asynchronous web APIs.
+organizations.
+
+I pride myself in:
+
+-   Creating resilient, maintainable, integrous data products
+-   Authoring elegant, bulletproof, type-annotated, well-formed, thoroughly
+    tested, distributable Python libraries, CLIs, asynchronous microservices
+    (web APIs), and SDKs
+-   Designing efficient, maintainable, testable, continuously integrated
+    and deployed, modern software systems
+-   Planning development work with clarity, flexibility, parallel execution,
+    and collaboration in mind
+
+## My Tools
+
+Python, SQL, Spark, Databricks Lakehouse, Snowflake, AWS EMR,
+AWS Lambda, AWS Aurora, AWS IAM, Okta, Apache Kafka, Github, PostgreSQL,
+Open API (Swagger), Linux, SQL Server, Github Actions, Jenkins, SQLAlchemy,
+XML, HTML, SOAP, WSDL, C++, Javascript (not exhaustive, and not necessarily
+in this order)
 
 ## Experience
 
