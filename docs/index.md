@@ -165,8 +165,8 @@ Please see my Linked-In profile for a comprehensive employment history:
     version and downloading or accessing specific file(s) from a remote
     repository (including non-public repos)
 
-Please see [Github](https://github.com/davebelais) for a full accounting of my
-activities :-)
+Please see Github ([github.com/davebelais](https://github.com/davebelais)) for
+a full accounting of my activities :-)
 
 ## Certifications
 
