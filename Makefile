@@ -1,10 +1,18 @@
 SHELL := bash
 .PHONY: docs
 
+# Install and build documentation + PDFs
+build:
+	{ hatch --version || pipx install --upgrade hatch || python3 -m pip install --upgrade hatch ; } && \
+	make install && \
+	hatch run python scripts/create_resume_variations.py && \
+	make pdf
+
+
 # Create environment
 install:
 	{ hatch --version || pipx install --upgrade hatch || python3 -m pip install --upgrade hatch ; } && \
-	npm install -g chromehtml2pdf && \
+	hatch env create default && \
 	echo "Install complete"
 
 # Build PDFs
