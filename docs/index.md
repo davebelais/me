@@ -8,7 +8,7 @@
 ## Summary
 
 I am a highly productive software and data engineer with 18 years of
-experience, including 15 years working in complex, matrixed, enterprisef
+experience, including 15 years working in complex, matrixed, enterprise
 organizations. I pride myself in authoring elegant, bulletproof,
 type-annotated, well-formed, thoroughly tested, distributable Python
 libraries and applications, and designing efficient, maintainable, systems
