@@ -18,45 +18,33 @@ rock-solid asynchronous web APIs.
 
 ## Experience
 
-### Nike | Lead Data Engineer, Sustainability Analytics | March 2021 - June 2025
+### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
 Data Products:
 
--   Nike Sustainability Index (Databricks Lakehouse, Snowflake, Spark, Python,
-    FastAPI, SQLAlchemy, Apache Kafka, AWS Lambda, AWS Aurora PostgreSQL):
-    As the lead data engineer for Sustainable Products and Materials, I worked
-    with material scientists and Sustainability professionals to design and
-    implement the current generation of systems we use to model our scope 3
-    environmental impacts, including greenhouse gas emissions. We leverage
-    data from Nike's supply chain (such as bills of material, demand
-    planning projections, and purchase orders) to produce scientifically
-    supported, traceable, reproducible, estimates of Nike's environmental
-    impact metrics (such as Kg of CO2-equivalent greenhouse gas emissions).
-    This data was leveraged in the aggregate for annual reporting to
-    stockholders, in more granular reporting to aid product creation in
-    identifying opportunities for improvement.
-    Additionally, we stood up micro-services
-    ([FastAPI rocks!](https://fastapi.tiangolo.com/)) to provide our partners
-    in product creation the means to perform scenario modeling during the
-    material selection and product design process, including identification
-    of functionally equivalent alternate materials to reduce Nike's impact.
-    Because the lifecycle analysis data used to calculate environmental
-    footprint metrics needs updated quarterly, and because footprints needed
-    frequent recalculation for millions of products and hundreds of thousands
-    of unique materials—we employed an atypical design which encapsulated
-    these contributing 3rd party-sourced metrics, along with mapping inputs
-    submitted by business users, in a versioned distributable. This represented
-    a dramatic performance boost over acessing a centralized store for the
-    semi-static data, and could be deployed as a dependency for both
-    Databricks jobs and microservices, ensuring identical output despite
-    not accessing a physical single source of truth.
+-   The Nike Sustainability Index (Databricks Lakehouse, Snowflake, Spark,
+    Python, FastAPI, SQLAlchemy, Apache Kafka, AWS Lambda, AWS Aurora
+    PostgreSQL):
+    I led the design and implementation of systems for distilling the expertise
+    of the material scientists and Sustainability professionals with whom I
+    collaborated into data products attributing environmental impact
+    measures, pertaining to greenhouse gas emissions and water quality
+    degredation/depletion, to Nike materials, then to the products comprised of
+    these materials, proportionate to gross usage. Applying these measures
+    to purchase order and demand planning data we were able to measure and
+    track aggregate impacts for the enterprise. More importantly, we provided
+    tools for product developers to reduce environmental impacts through
+    better material selection. To this end we exposed microservices
+    (FastAPI on AWS lambda) for product and material footprint scenario
+    modeling, in addition to our Analytics data products (Databricks Unity
+    Catalog, and formerly Snowflake and Hive/Presto on S3) and Apache Kafka
+    streams.
 
 -   Enablon EHS Reporting (Databricks Lakehouse, Snowflake, Spark, Python,
     SQLAlchemy, OData): I designed and built out the initial implementation of
-    our foundational data ingestion pipelines and warehouse mirroring Nike's
+    our foundational data ingestion pipelines and databases mirroring Nike's
     3rd party EHS (Environmental, Health, and Safety) tool used for reporting
-    by our manufacturing partners. This data product was recently
-    handed off to a newly stood-up sister squad to maintain.
+    by our manufacturing partners.
 
 Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
 
@@ -68,7 +56,7 @@ Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
     data products based on ORM metadata, securely retrieve managed credentials,
     and many other common and specialized development tasks.
 
-### BICP @ Nike | Lead Data Engineer, Sustainability Analytics | March 2020 - March 2021
+### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
 -   Developed a SQLAlchemy-ORM-based framework for automating deployment and
     versioning (schema migration) supporting all database dialects leveraged
@@ -79,7 +67,7 @@ Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
     end-to-end schema-based data validations, local testing, and environment
     + file system abstraction
 
-### BICP @ Nike | Senior Data Engineer, Sustainability Analytics | January 2020 - March 2020
+### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
