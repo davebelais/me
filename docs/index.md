@@ -98,7 +98,7 @@ Digital Analytics".
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
 -   Lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
-    Python, SQLAlchemy)
+    Python, SQL Server, SQLAlchemy)
     OLAP and OLTP data products to ingest, consolidate and normalize sales,
     dimensional, and click-stream data from disparate subsidiary and partner
     systems' transactional databases, streaming platforms, APIs, and
@@ -116,7 +116,7 @@ Note: the header above conveys a genericized role name based on current
 industry usage, for clarity. My official title was "Manager, Web & Digital
 Content".
 
-### The Kroger Co. (Fred Meyer Stores Inc.) | Systems Analyst, Ecommerce | March 2011 - November 2013
+### The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
 
 -   Researched, designed, and prototyped Fred Meyer's (and later Kroger's)
     product information management system for [customer-facing digital
