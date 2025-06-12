@@ -1,4 +1,4 @@
-name: distribute
+name: build
 on:
   workflow_dispatch:
   push:
