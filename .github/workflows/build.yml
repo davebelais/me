@@ -4,10 +4,6 @@ on:
   push:
     branches:
     - main
-    paths:
-    - pyproject.toml
-    - .github/workflows/build.yml
-    - mkdocs.yaml
 jobs:
   build:
     permissions:
