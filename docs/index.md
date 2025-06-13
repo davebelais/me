@@ -91,9 +91,11 @@ Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
     to decisions resulting in a 56% increase in e-commerce sales in 2018 vs
     2017, and a 67% increase in ecommerce sales in 2019 vs 2018
 
+<!--
 Note: the header above conveys a genericized role name based on current
 industry usage, for clarity. My official title was "Senior Manager, Web &
 Digital Analytics".
+-->
 
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
@@ -112,9 +114,11 @@ Digital Analytics".
     metrics needed to facilitate accountability and continuous operational
     improvement
 
+<!--
 Note: the header above conveys a genericized role name based on current
 industry usage, for clarity. My official title was "Manager, Web & Digital
 Content".
+-->
 
 ### The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
 
