@@ -15,7 +15,7 @@ I pride myself in:
 
 -   Creating resilient, maintainable, integrous data products
 -   Authoring elegant, bulletproof, type-annotated, well-formed, thoroughly
-    tested, distributable Python libraries, CLIs, asynchronous microservices
+    tested, distributable Python libraries, CLIs, asynchronous micro-services
     (web APIs), and SDKs
 -   Designing efficient, maintainable, testable, continuously integrated
     and deployed, modern software systems
@@ -43,7 +43,7 @@ necessarily in this order)
     Alembic), Apache Kafka (as a publisher), and AWS Aurora PostgreSQL.
     This entailed design and implementation of systems for distilling
     material manufacturing process lifecycle assessment data,
-    the expertise of the material scientists and Sustainability professionals
+    the expertise of the material scientists and sustainability professionals
     with whom we collaborated, and materials data from our product creation
     systems into data products attributing environmental impact
     measures (greenhouse gas emissions and water quality
@@ -54,7 +54,7 @@ necessarily in this order)
     track aggregate impacts for the enterprise. More importantly, we provided
     tools for product developers to reduce environmental impacts through
     better materials selection during the design process. To this end, we
-    stood up microservices (Python + FastAPI on AWS lambda) for product and
+    stood up micro-services (Python + FastAPI on AWS lambda) for product and
     material footprint scenario modeling.
 
 -   I lead development of foundational data products exposing
