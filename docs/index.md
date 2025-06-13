@@ -24,72 +24,74 @@ I pride myself in:
 
 ## My Tools
 
-Python, SQL, Spark, Databricks Lakehouse, Snowflake, AWS EMR,
-AWS Lambda, AWS Aurora, AWS IAM, Okta, Apache Kafka, Github, PostgreSQL,
-Open API (Swagger), Linux, SQL Server, Github Actions, Jenkins, SQLAlchemy,
-XML, HTML, SOAP, WSDL, C++, Javascript (not exhaustive, and not necessarily
-in this order)
+Python, SQL, Spark, Databricks Lakehouse, Snowflake, Airflow, AWS
+(Amazon Web Services) EMR (Elastic Map Reduce), AWS Lambda, AWS Aurora,
+AWS IAM, Okta + OAuth 2, Apache Kafka (Produce + Consumer), Pub-sub Github,
+PostgreSQL, Open API (Swagger), Linux, SQL Server, Github Actions, Jenkins,
+SQLAlchemy, XML, HTML, SOAP, WSDL, C++, Javascript (not exhaustive, and not
+necessarily in this order)
 
 ## Experience
 
 ### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
-Data Products:
-
--   The Nike Sustainability Index (Databricks Lakehouse, Snowflake, Spark,
-    Python, FastAPI, SQLAlchemy, Apache Kafka, AWS Lambda, AWS Aurora
-    PostgreSQL):
-    I led the design and implementation of systems for distilling the expertise
-    of the material scientists and Sustainability professionals with whom I
-    collaborated into data products attributing environmental impact
-    measures, pertaining to greenhouse gas emissions and water quality
-    degradation/depletion, to Nike materials, then to the products comprised of
-    these materials, proportionate to gross usage. Applying these measures
+-   I lead engineering of the Nike Product & Materials Sustainability Index
+    with data products published in Databricks Lakehouse (Unity Catalog),
+    Snowflake, and (prior to 2023) S3 + hive/presto + EMR. We utilized Spark,
+    Python (applications and libraries, distributed through JFrog Artifactory),
+    ASGI Microservices (Python + FastAPI + SQLAlchemy +
+    Alembic), Apache Kafka (as a publisher), and AWS Aurora PostgreSQL.
+    This entailed design and implementation of systems for distilling
+    material manufacturing process lifecycle assessment data,
+    the expertise of the material scientists and Sustainability professionals
+    with whom we collaborated, and materials data from our product creation
+    systems into data products attributing environmental impact
+    measures (greenhouse gas emissions and water quality
+    degradation/depletion) to Nike materials. We subsequently parsed
+    product bills of material line items in order to infer material gross usage
+    (way more involved than it sounds) in kilograms. Applying these measures
     to purchase order and demand planning data we were able to measure and
     track aggregate impacts for the enterprise. More importantly, we provided
     tools for product developers to reduce environmental impacts through
-    better material selection. To this end we exposed microservices
-    (FastAPI on AWS lambda) for product and material footprint scenario
-    modeling, in addition to our Analytics data products (Databricks Unity
-    Catalog, and formerly Snowflake and Hive/Presto on S3) and Apache Kafka
-    streams.
+    better materials selection during the design process. To this end, we
+    stood up microservices (Python + FastAPI on AWS lambda) for product and
+    material footprint scenario modeling.
 
--   Enablon EHS Reporting (Databricks Lakehouse, Snowflake, Spark, Python,
-    SQLAlchemy, OData): I designed and built out the initial implementation of
-    our foundational data ingestion pipelines and databases mirroring Nike's
-    3rd party EHS (Environmental, Health, and Safety) tool used for reporting
-    by our manufacturing partners.
+-   I lead development of foundational data products exposing
+    Environmental Health & Safety data from our 3rd-party EHS reporting system,
+    Enablon (via their "Blink" OData API), in Databricks Lakehouse (Unity
+    Catalog), Snowflake, and (prior to 2023) S3 + hive/presto + EMR. I used
+    Spark and Python.
 
-Tooling and Frameworks (Python Libraries and CLIs, Github Actions):
-
--   I authored command line tools and frameworks
-    used in CI/CD and locally, numerous SDKs for internal and third-party
-    platforms, extended SQLAlchemy and Alembic to facilitate use of ORMs
-    (object relational mappings) across multiple dialects simultaneously, to
-    facilitate common and complex data frame operations in Spark, to validate
+-   I authored enterprise CLIs (command line interfaces) and frameworks (Python
+    libraries) for use in CI/CD and locally, numerous SDKs (software
+    development kits) for internal and third-party platforms, extended
+    SQLAlchemy and Alembic to facilitate use of ORMs
+    (object relational mappings) across multiple dialects simultaneously, and
+    to facilitate common and complex data frame operations in Spark, validate
     data products based on ORM metadata, securely retrieve managed credentials,
-    and many other common and specialized development tasks.
+    and many other common development tasks.
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
--   Developed a SQLAlchemy-ORM-based framework for automating deployment and
+-   I developed a SQLAlchemy-ORM-based framework for automating deployment and
     versioning (schema migration) supporting all database dialects leveraged
     by the Nike Enterprise Data & Analytics organization: Databricks,
     Snowflake, Hive/Presto on S3, and PostgreSQL with full rollback
-    and versioning support
--   Authored a framework for Sustainability Analytics' ETL jobs incorporating
+    and versioning support.
+-   I authored a framework for Sustainability Analytics' ETL jobs incorporating
     end-to-end schema-based data validations, local testing, and environment
-    + file system abstraction
+    + file system abstraction.
 
 ### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
--   Lead development of data products distilling and exposing analytics to
+-   I lead development of data products distilling and exposing analytics to
     buyers and planners correlating digital and store sales and EBITDA with
     inventory,sell-through, prices, and promotional events&#8212;contributing
     to decisions resulting in a 56% increase in e-commerce sales in 2018 vs
-    2017, and a 67% increase in ecommerce sales in 2019 vs 2018
+    2017, and a 67% increase in ecommerce sales in 2019 vs 2018.
 
 <!--
 Note: the header above conveys a genericized role name based on current
@@ -99,20 +101,20 @@ Digital Analytics".
 
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
--   Lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
+-   I lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
     Python, SQL Server, SQLAlchemy)
     OLAP and OLTP data products to ingest, consolidate and normalize sales,
     dimensional, and click-stream data from disparate subsidiary and partner
     systems' transactional databases, streaming platforms, APIs, and
-    mainframes
--   Engineered algorithms for scoring semi-structured data and performing
+    mainframes.
+-   I engineered algorithms for scoring semi-structured data and performing
     human-in-the loop data validation and auditing for product descriptions,
-    specifications and photography acquired through trading partners (Python)
--   Established source-management capabilities for inbound data to handle complex
-    retailer/vendor/manufacturer relationships (Python)
+    specifications and photography acquired through trading partners (Python).
+-   I established source-management capabilities for inbound data to handle
+    complex retailer/vendor/manufacturer relationships (Python).
 -   Collaborated with emerging digital initiatives to ensure the capture of all
     metrics needed to facilitate accountability and continuous operational
-    improvement
+    improvement.
 
 <!--
 Note: the header above conveys a genericized role name based on current
@@ -122,28 +124,26 @@ Content".
 
 ### The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
 
--   Researched, designed, and prototyped Fred Meyer's (and later Kroger's)
+-   I researched, designed, and prototyped Fred Meyer's (and later Kroger's)
     product information management system for [customer-facing digital
-    initiatives](https://fredmeyer.com)
--   Collaborated with Fred Meyer's technology partner, 1WorldSync, to establish a
-    roadmap, data model, and procedures for sourcing and validating product data
-    from GDSN data pools for use in digital sales channels
+    initiatives](https://fredmeyer.com).
+-   I collaborated with Fred Meyer's technology partner, 1WorldSync, to
+    establish a roadmap, data model, and procedures for sourcing and validating
+    product data from [GDSN](https://www.gs1.org/services/gdsn) data pools for
+    use in digital sales channels.
 
 ### Dissent Graphics Inc. | Full-Stack Developer | January 2008 - March 2011
 
--   Designed and developed web applications for clients including:
+-   I designed and developed web applications for clients including:
     The Garrigan Lyman Group, Microsoft, Best Buy, Avenue A Razorfish,
     Nereus Communications, BlackEyedPeas.com, TeeFury.com, the Travel Channel’s
-    Man v. Food, TheWho.com, Custom Rights, Hello Minor, ExoticTravelers.com, and
-    the ACLU of Oregon
-
-Please see my Linked-In profile for a comprehensive employment history:
-[linkedin.com/in/davidbelais](https://www.linkedin.com/in/davidbelais)
+    Man v. Food, TheWho.com, Custom Rights, Hello Minor, ExoticTravelers.com,
+    and the ACLU of Oregon.
 
 ## Education
 
 - Portland State University | Computer Science (Postbaccalaureate) | 2018
-- The Art Institute of Portland | Computer Generated Imaging | Bachelor of
+- The Art Institute of Portland | Media Arts & Animation | Bachelor of
   Science | 2007
 - Portland State University | Web Design | 2002 - 2004
 - Loyola Marymount University | Fine Arts | 2000 - 2001
