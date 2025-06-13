@@ -43,7 +43,7 @@ Data Products:
     of the material scientists and Sustainability professionals with whom I
     collaborated into data products attributing environmental impact
     measures, pertaining to greenhouse gas emissions and water quality
-    degredation/depletion, to Nike materials, then to the products comprised of
+    degradation/depletion, to Nike materials, then to the products comprised of
     these materials, proportionate to gross usage. Applying these measures
     to purchase order and demand planning data we were able to measure and
     track aggregate impacts for the enterprise. More importantly, we provided
