@@ -19,16 +19,9 @@ authors = [
 Documentation = "https://david.belais.me"
 Repository = "https://github.com/davebelais/me"
 
-[tool.hatch.build.targets.wheel]
-sources = [
-    "src",
-]
-packages = [
-    "src/me.py",
-]
-
 [tool.hatch.envs.default]
 python = "3.13"
+skip-install = true
 dependencies = [
     "gittable~=0.0",
     "dependence~=1.0",
@@ -48,6 +41,7 @@ post-install-commands = [
 ]
 
 [tool.hatch.envs.hatch-static-analysis]
+skip-install = true
 extra-dependencies = [
     "dependence~=1.0",
 ]
@@ -87,10 +81,8 @@ target-version = [
 [tool.mypy]
 python_version = "3.13"
 files = [
-    "src",
     "scripts",
 ]
-mypy_path = "src"
 disallow_untyped_defs = true
 disallow_incomplete_defs = true
 namespace_packages = true
