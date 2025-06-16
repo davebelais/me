@@ -174,5 +174,7 @@ a full accounting of my activities :-)
 
 ## Certifications
 
+- [JQL for Admins](https://university.atlassian.com/student/award/SbuF34YQEXwk3oDXv1coga2H)
+- [Jira Automation for Admins](https://university.atlassian.com/student/award/KPXH8RPefKoMhjUno6PSfQkA)
 - [AWS Certified Big Data - Specialty](https://www.youracclaim.com/badges/c9885f75-2b4e-42ea-b499-0f99eee3b7e9/public_url)
 - [AWS Certified Cloud Practitioner](https://www.youracclaim.com/badges/68b84f25-96ee-4796-ac16-4c625ef4aadd/public_url)
