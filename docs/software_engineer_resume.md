@@ -7,29 +7,46 @@
 
 ## Summary
 
-I am a highly productive software and data engineer with 18 years of
-experience, including 15 years working in complex, matrixed, enterprise
-organizations.
+I am a highly productive data engineer and software engineer with 18 years of
+relevant experience.
 
 I pride myself in:
 
--   Creating resilient, maintainable, integrous data products
+-   Creating resilient, maintainable, integrous data pipelines and products
+    (ETL/ELT batch, micro-batch, and streaming for both OLAP and OLTP
+    databases/lake houses/data lakes/data warehouses) for "big data",
+    master data, fact data and dimensional data
 -   Authoring elegant, bulletproof, type-annotated, well-formed, thoroughly
     tested, distributable Python libraries, CLIs, asynchronous micro-services
     (web APIs), and SDKs
 -   Designing efficient, maintainable, testable, continuously integrated
-    and deployed, modern software systems
+    and deployed, modern software systems (CI/CD, Test-driven development)
 -   Planning development work with clarity, flexibility, parallel execution,
-    and collaboration in mind
+    and collaboration in mind (whether using Agile or waterfall)
+-   Leading engineering teams with complex and ambiguous directives towards
+    clear, executable road maps
+-   Condensing fact from the vapor of nuance while maintaining traceability and
+    continuity with data provenance, and facilitating data governance
+-   Utilizing "AI" and machine learning tools and frameworks *selectively*,
+    *prudently*, and with traceability and long-term *cost efficacy* in mind
 
-## My Tools
+## Skills
 
-Python, SQL, Spark, Databricks Lakehouse, Snowflake, Airflow, AWS
-(Amazon Web Services) EMR (Elastic Map Reduce), AWS Lambda, AWS Aurora,
-AWS IAM, Okta + OAuth 2, Apache Kafka (Produce + Consumer), Pub-sub Github,
-PostgreSQL, Open API (Swagger), Linux, SQL Server, Github Actions, Jenkins,
-SQLAlchemy, XML, HTML, SOAP, WSDL, C++, Javascript (not exhaustive, and not
-necessarily in this order)
+I have professional experience with (not exhaustive):
+
+-   Languages: Python, SQL, C++, Javascript, HTML, XML, PHP, WSDL, Rust
+-   Platforms: Databricks, Snowflake, Amazon Web Services
+    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)
+-   OLTP Databases: PostgreSQL, MySQL, SQL Server, Oracle, IBM DB2, SQLite,
+    MariaDB
+-   OLAP "Databases" and query engines: Databricks Lakehouse, Deltalake,
+    Snowflake, Terradata, Netezza, Hive, Presto, DuckDB
+-   Applications, Services and Frameworks: Apache Spark, Apache Kafka,
+    SQLAlchemy, FastAPI, Flask, Docker, Terraform, Linux, Unix, Github Actions,
+    Jenkins, Kubernetes, Hadoop, Copilot
+-   Protocols and Specifications: Open API (Swagger), SOAP, MIME,
+    AS2 (for GDSN data pools), ASGI, WSGI
+-   Distributed File Systems: DBFS, S3, HDFS
 
 ## Experience
 
@@ -109,9 +126,10 @@ Digital Analytics".
     mainframes.
 -   I engineered algorithms for scoring semi-structured data and performing
     human-in-the loop data validation and auditing for product descriptions,
-    specifications and photography acquired through trading partners (Python).
+    specifications and photography acquired through trading partners
+    (Python, SQL).
 -   I established source-management capabilities for inbound data to handle
-    complex retailer/vendor/manufacturer relationships (Python).
+    complex retailer/vendor/manufacturer relationships (Python, SQL).
 -   Collaborated with emerging digital initiatives to ensure the capture of all
     metrics needed to facilitate accountability and continuous operational
     improvement.
@@ -152,6 +170,9 @@ Content".
 
 ...because code examples are worth a thousand interview questions!
 
+-   [git-author-stats](https://github.com/enorganic/git-author-stats#git-author-stats):
+    A CLI and library for extracting periodic author "stats" (insertions and
+    deletions) for a Git repository or Github organization
 -   [dependence](https://dependence.enorganic.org/):
     A CLI and library for aligning a python projects' declared dependencies with the package versions installed in the environment in which dependence is executed, and for "freezing" recursively resolved package dependencies (like pip freeze, but for a package, instead of the entire environment).
 -   [maya-zen-tools](https://maya-zen-tools.enorganic.org/):
@@ -160,17 +181,15 @@ Content".
     surfaces to distribute vertices and/or UVs
 -   [oapi](https://oapi.enorganic.org/): A python library for generating client
     SDKs from Open API documents
--   [git-author-stats](https://github.com/enorganic/git-author-stats#git-author-stats):
-    A CLI and library for extracting periodic author "stats" (insertions and
-    deletions) for a Git repository or Github organization
 -   [gittable](https://gittable.enorganic.org/): A CLI and library for
     performing common, but complex, development and CI/CD tasks for a Git
     repository, such as tagging a commit with your current project/package
     version and downloading or accessing specific file(s) from a remote
     repository (including non-public repos)
 
-Please see Github ([github.com/davebelais](https://github.com/davebelais)) for
-a full accounting of my activities :-)
+Please see [github.com/davebelais](https://github.com/davebelais)
+and [github.com/enorganic](https://github.com/enorganic) for additional code
+examples.
 
 ## Certifications
 
