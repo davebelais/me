@@ -30,34 +30,33 @@ I pride myself in:
 -   Utilizing "AI" and machine learning tools and frameworks *selectively*,
     *prudently*, and with traceability and long-term *cost efficacy* in mind
 
-## Skills
-
-I have professional experience with (not exhaustive):
-
--   Languages: Python, SQL, C++, Javascript, HTML, XML, PHP, WSDL, Rust
--   Platforms: Databricks, Snowflake, Amazon Web Services
-    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)
--   OLTP Databases: PostgreSQL, MySQL, SQL Server, Oracle, IBM DB2, SQLite,
-    MariaDB
--   OLAP "Databases" and query engines: Databricks Lakehouse, Deltalake,
-    Snowflake, Terradata, Netezza, Hive, Presto, DuckDB
--   Applications, Services and Frameworks: Apache Spark, Apache Kafka,
-    SQLAlchemy, FastAPI, Flask, Docker, Terraform, Linux, Unix, Github Actions,
-    Jenkins, Kubernetes, Hadoop, Copilot
--   Protocols and Specifications: Open API (Swagger), SOAP, MIME,
-    AS2 (for GDSN data pools), ASGI, WSGI
--   Distributed File Systems: DBFS, S3, HDFS
-
 ## Experience
 
 ### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
+<small>
+**Platforms:** Databricks, Snowflake, Amazon Web Services
+    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
+**Languages:** Python, SQL, Javascript<br/>
+**OLTP Databases:** PostgreSQL, Oracle, SQLite
+**OLAP "Databases" and query engines** Databricks Lakehouse, Deltalake,
+    Snowflake, Terradata, Hive, Presto<br/>
+**Applications, Services and Frameworks:** Apache Spark, Apache Kafka,
+    SQLAlchemy, FastAPI, Docker, Terraform, Linux, Github Actions,
+    Jenkins, Hadoop, Copilot<br/>
+**Protocols and Specifications:** Open API (Swagger), ASGI<br/>
+**Distributed File Systems:** DBFS, S3, HDFS
+</small>
+
 -   I lead engineering of the Nike Product & Materials Sustainability Index
-    with data products published in Databricks Lakehouse (Unity Catalog),
+    with data products published in Nike's "Sole" Databricks Platform
+    (Lakehouse/Deltalake/Unity Catalog),
     Snowflake, and (prior to 2023) S3 + hive/presto + EMR. We utilized Spark,
     Python (applications and libraries, distributed through JFrog Artifactory),
     ASGI Microservices (Python + FastAPI + SQLAlchemy +
     Alembic), Apache Kafka (as a publisher), and AWS Aurora PostgreSQL.
+    CI/CD using Jenkins and Github Actions, Terraform for
+    Infrastructure as Code.
     This entailed design and implementation of systems for distilling
     material manufacturing process lifecycle assessment data,
     the expertise of the material scientists and sustainability professionals
@@ -88,8 +87,24 @@ I have professional experience with (not exhaustive):
     to facilitate common and complex data frame operations in Spark, validate
     data products based on ORM metadata, securely retrieve managed credentials,
     and many other common development tasks.
+</td>
+</tr>
+</table>
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
+
+ <small>
+**Platforms:** Snowflake, Amazon Web Services
+    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
+**Languages:** Python, SQL, Rust<br/>
+**OLTP Databases:** PostgreSQL, Oracle, SQLite<br/>
+**OLAP "Databases" and query engines:** Snowflake, Terradata, Hive, Presto<br/>
+**Applications, Services and Frameworks:** Apache Spark,
+    SQLAlchemy, Docker, Terraform, Linux, Github Actions,
+    Jenkins, Hadoop<br/>
+**Protocols and Specifications:** Open API (Swagger)<br/>
+**Distributed File Systems:** S3, HDFS
+</small>
 
 -   I developed a SQLAlchemy-ORM-based framework for automating deployment and
     versioning (schema migration) supporting all database dialects leveraged
@@ -98,17 +113,41 @@ I have professional experience with (not exhaustive):
     and versioning support.
 -   I authored a framework for Sustainability Analytics' ETL jobs incorporating
     end-to-end schema-based data validations, local testing, and environment
-    + file system abstraction.
+    and file system abstraction.
 
 ### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
+<small>
+**Platforms:** Snowflake, Amazon Web Services
+    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
+**Languages:** Python, SQL, Rust<br/>
+**OLTP Databases:** PostgreSQL, Oracle, SQLite
+**OLAP "Databases" and query engines:** Snowflake, Terradata, Hive, Presto<br/>
+**Applications, Services and Frameworks:** Apache Spark, SQLAlchemy, Docker,
+    Terraform, Linux, Jenkins, Hadoop<br/>
+**Protocols and Specifications:** Open API (Swagger), ASGI<br/>
+**Distributed File Systems:** S3, HDFS
+</small>
+
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
+
+<small>
+**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
+**OLTP Databases:** SQL Server, IBM DB2, SQLite
+**OLAP "Databases" and query engines:** Netezza, Hive, Presto<br/>
+**Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop,
+    Magento Commerce, IBM Websphere Commerce<br/>
+**Protocols and Specifications:** Open API (Swagger), SOAP, MIME,
+    AS2 (for GDSN data pools), WSGI<br/>
+</small>
 
 -   I lead development of data products distilling and exposing analytics to
     buyers and planners correlating digital and store sales and EBITDA with
     inventory,sell-through, prices, and promotional events&#8212;contributing
     to decisions resulting in a 56% increase in e-commerce sales in 2018 vs
     2017, and a 67% increase in ecommerce sales in 2019 vs 2018.
+-   I lead development of pricing/promotions and product information
+    integration services for Magento Commerce.
 
 <!--
 Note: the header above conveys a genericized role name based on current
@@ -117,6 +156,14 @@ Digital Analytics".
 -->
 
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
+
+<small>
+**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
+**OLTP Databases:** SQL Server, IBM DB2, SQLite<br/>
+**OLAP "Databases" and query engines:** Netezza, Hive, Presto<br/>
+**Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop<br/>
+**Protocols and Specifications:** SOAP, MIME, AS2 (for GDSN data pools), WSGI
+</small>
 
 -   I lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
     Python, SQL Server, SQLAlchemy)
@@ -142,6 +189,13 @@ Content".
 
 ### The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
 
+<small>
+**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
+**OLTP Databases:** SQL Server, IBM DB2, SQLite<br/>
+**Applications, Services and Frameworks:** SQLAlchemy<br/>
+**Protocols and Specifications:** SOAP, MIME, AS2 (for GDSN data pools)
+</small>
+
 -   I researched, designed, and prototyped Fred Meyer's (and later Kroger's)
     product information management system for [customer-facing digital
     initiatives](https://fredmeyer.com).
@@ -152,11 +206,33 @@ Content".
 
 ### Dissent Graphics Inc. | Full-Stack Developer | January 2008 - March 2011
 
+<small>
+**Languages:** Python, PHP, SQL, Javascript, Actionscript
+</small>
+
 -   I designed and developed web applications for clients including:
     The Garrigan Lyman Group, Microsoft, Best Buy, Avenue A Razorfish,
     Nereus Communications, BlackEyedPeas.com, TeeFury.com, the Travel Channel’s
     Man v. Food, TheWho.com, Custom Rights, Hello Minor, ExoticTravelers.com,
     and the ACLU of Oregon.
+
+## Skills
+
+I have professional experience with (not exhaustive):
+
+-   Platforms: Databricks, Snowflake, Amazon Web Services
+-   Languages: Python, SQL, C++, Javascript, HTML, XML, PHP, WSDL, Rust
+    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)
+-   OLTP Databases: PostgreSQL, MySQL, SQL Server, Oracle, IBM DB2, SQLite,
+    MariaDB
+-   OLAP "Databases" and query engines: Databricks Lakehouse, Deltalake,
+    Snowflake, Terradata, Netezza, Hive, Presto, DuckDB
+-   Applications, Services and Frameworks: Apache Spark, Apache Kafka,
+    SQLAlchemy, FastAPI, Flask, Docker, Terraform, Linux, Unix, Github Actions,
+    Jenkins, Kubernetes, Hadoop, Copilot
+-   Protocols and Specifications: Open API (Swagger), SOAP, MIME,
+    AS2 (for GDSN data pools), ASGI, WSGI
+-   Distributed File Systems: DBFS, S3, HDFS
 
 ## Education
 
