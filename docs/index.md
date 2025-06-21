@@ -85,12 +85,12 @@ I have professional experience with (not exhaustive):
     (CI/CD), permitting us to frequently release multiple features daily
 -   I leveraged data models in our Databricks Deltalake, Snowflake databases,
     and (prior to 2023) S3/hive data lake incorporating type 2 slowly changing
-    dimensions in order to address obstacles to replicability (required for
-    regulatory audits)
+    dimensions in order to address obstacles to replicating historically
+    reported metrics (required for regulatory audits)
 -   I authored foundational data products exposing Environmental Health &
     Safety data from our 3rd-party EHS reporting system, Enablon (ingested
-    via their "Blink" OData API), in Databricks Deltalake,
-    Snowflake, and (prior to 2023) S3 + hive/presto + EMR.
+    via their "Blink" OData API), into our Databricks Deltalake,
+    Snowflake, and (prior to 2023) S3 + hive/presto data lake
 -   I authored enterprise developer tools including CLIs (command line
     interfaces) and frameworks (Python libraries) for use in CI/CD and locally,
     numerous SDKs (software development kits) for internal and third-party
@@ -98,7 +98,7 @@ I have professional experience with (not exhaustive):
     (object relational mappings) across multiple dialects simultaneously, and
     to facilitate common and complex data frame operations in Spark, validate
     data products based on ORM metadata, securely retrieve managed credentials,
-    and many other common development tasks.
+    and many other common development tasks
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
