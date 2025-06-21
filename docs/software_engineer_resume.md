@@ -29,9 +29,9 @@ I pride myself in:
 I have professional experience with (not exhaustive):
 
 -   Platforms: Databricks, Snowflake, Amazon Web Services
--   Languages: Python, SQL, C++, Javascript, HTML, XML, PHP, WSDL, Rust
     (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)
--   "Databases and query engines: Databricks Lakehouse, Delta Lake,
+-   Languages: Python, SQL, Javascript, C++, HTML, XML, PHP, WSDL, Rust
+-   Databases and query engines: Databricks Lakehouse, Delta Lake,
     Snowflake, Terradata, Netezza, Hive, Presto, DuckDB, PostgreSQL, MySQL,
     SQL Server, Oracle, IBM DB2, SQLite, MariaDB
 -   Applications, Services and Frameworks: Apache Spark, Apache Kafka,
