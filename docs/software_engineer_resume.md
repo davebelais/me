@@ -64,10 +64,9 @@ I have professional experience with (not exhaustive):
     assessing and mitigating Nike's environmental impacts
 -   I redesigned and implemented ELT and ETL data pipelines leveraging
     Databricks Delta Lake, Snowflake, and Amazon EMR—employing batch,
-    micro-batch, and streaming (Apache Kafka and Spark streaming, both as
-    producer and consumer) and Delta live tables, reducing aggregate compute
-    costs by 80% as compared with legacy pipelines
--   I authored asynchronous Python web APIs using FastAPI and SQLAlchemy
+    micro-batch, streaming (Apache Kafka and Spark) and Delta live tables,
+    reducing compute costs by 80% as compared with legacy pipelines
+-   I authored Python web APIs using FastAPI and SQLAlchemy
     on AWS Lambda, using Terraform for infrastructure as code, and OAuth2
     (Okta) for authentication, to facilitate preemptive mitigation of
     environmental impacts by facilitating pre-manufacture scenario modeling
