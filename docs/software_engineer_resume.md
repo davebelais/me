@@ -1,6 +1,6 @@
 # David Isaac Belais
 
-505 SE 35th Ave, Portland OR 97214  |  503-267-0942  |
+Portland OR |  503-267-0942  |
 [david@belais.me](mailto:david@belais.me) |
 [david.belais.me](https://david.belais.me) |
 [github.com/davebelais](https://github.com/davebelais)
