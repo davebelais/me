@@ -7,28 +7,22 @@
 
 ## Summary
 
-I am a highly productive data engineer and software engineer with 18 years of
+I am a highly productive software and data engineer with 18 years of
 relevant experience.
 
 I pride myself in:
 
--   Creating resilient, maintainable, integrous data pipelines and products
-    (ETL/ELT batch, micro-batch, and streaming for both OLAP and OLTP
-    databases/lake houses/data lakes/data warehouses) for "big data",
-    master data, fact data and dimensional data
+-   Creating resilient, maintainable, integrous data products
 -   Authoring elegant, bulletproof, type-annotated, well-formed, thoroughly
-    tested, distributable Python libraries, CLIs, asynchronous micro-services
-    (web APIs), and SDKs
+    tested, distributable Python libraries, CLIs, web APIs, and
+    SDKs
 -   Designing efficient, maintainable, testable, continuously integrated
-    and deployed, modern software systems (CI/CD, Test-driven development)
+    and deployed, modern software systems
 -   Planning development work with clarity, flexibility, parallel execution,
-    and collaboration in mind (whether using Agile or waterfall)
+    and collaboration in mind
 -   Leading engineering teams with complex and ambiguous directives towards
     clear, executable road maps
--   Condensing fact from the vapor of nuance while maintaining traceability and
-    continuity with data provenance, and facilitating data governance
--   Utilizing "AI" and machine learning tools and frameworks *selectively*,
-    *prudently*, and with traceability and long-term *cost efficacy* in mind
+-   Condensing fact from the vapor of nuance
 
 ## Skills
 
@@ -37,7 +31,7 @@ I have professional experience with (not exhaustive):
 -   Platforms: Databricks, Snowflake, Amazon Web Services
 -   Languages: Python, SQL, C++, Javascript, HTML, XML, PHP, WSDL, Rust
     (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)
--   "Databases and query engines: Databricks Lakehouse, Deltalake,
+-   "Databases and query engines: Databricks Lakehouse, Delta Lake,
     Snowflake, Terradata, Netezza, Hive, Presto, DuckDB, PostgreSQL, MySQL,
     SQL Server, Oracle, IBM DB2, SQLite, MariaDB
 -   Applications, Services and Frameworks: Apache Spark, Apache Kafka,
@@ -55,7 +49,7 @@ I have professional experience with (not exhaustive):
 **Platforms:** Databricks, Snowflake, Amazon Web Services
     (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
 **Languages:** Python, SQL, Javascript<br/>
-**Databases and query engines:** Databricks Lakehouse, Deltalake,
+**Databases and query engines:** Databricks Lakehouse, Delta lake,
     Snowflake, Terradata, Hive, Presto, PostgreSQL, Oracle, SQLite<br/>
 **Applications, Services and Frameworks:** Apache Spark, Apache Kafka,
     SQLAlchemy, Alembic, FastAPI, Terraform, Docker, Linux, Github Actions,
@@ -68,11 +62,11 @@ I have professional experience with (not exhaustive):
     software products supporting analysts, data scientists, environmental
     scientists, product developers, and sustainability professionals in
     assessing and mitigating Nike's environmental impacts
--   I redesigned and implemented data pipelines leveraging Databricks
-    Deltalake, Snowflake, and Amazon EMR—employing batch, micro-batch, and
-    streaming (Apache Kafka and Spark streaming, both as producer and consumer)
-    and Delta live tables, reducing aggregate compute costs by 80% as compared
-    with legacy pipelines
+-   I redesigned and implemented ELT and ETL data pipelines leveraging
+    Databricks Delta Lake, Snowflake, and Amazon EMR—employing batch,
+    micro-batch, and streaming (Apache Kafka and Spark streaming, both as
+    producer and consumer) and Delta live tables, reducing aggregate compute
+    costs by 80% as compared with legacy pipelines
 -   I authored asynchronous Python web APIs using FastAPI and SQLAlchemy
     on AWS Lambda, using Terraform for infrastructure as code, and OAuth2
     (Okta) for authentication, to facilitate preemptive mitigation of
@@ -83,13 +77,13 @@ I have professional experience with (not exhaustive):
     permitting  us to fully employ test-driven development, and thereby
     safely make use of continuous integration and deployment
     (CI/CD), permitting us to frequently release multiple features daily
--   I leveraged data models in our Databricks Deltalake, Snowflake databases,
+-   I leveraged data models in our Databricks Delta Lake, Snowflake databases,
     and (prior to 2023) S3/hive data lake incorporating type 2 slowly changing
     dimensions in order to address obstacles to replicating historically
     reported metrics (required for regulatory audits)
 -   I authored foundational data products exposing Environmental Health &
-    Safety data from our 3rd-party EHS reporting system, Enablon (ingested
-    via their "Blink" OData API), into our Databricks Deltalake,
+    Safety data from our 3rd-party EHS reporting system, Enablon (incrementally
+    ingested via their "Blink" OData API), into our Databricks Delta Lake,
     Snowflake, and (prior to 2023) S3 + hive/presto data lake
 -   I authored enterprise developer tools including CLIs (command line
     interfaces) and frameworks (Python libraries) for use in CI/CD and locally,
