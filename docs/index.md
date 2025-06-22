@@ -94,7 +94,7 @@ I have professional experience with (not exhaustive):
     data validation, generating data model diagrams, schema versioning and
     migration, and extending SQLAlchemy's ORM for simultaneous
     multi-dialect support and view management supporting OLAP databases
-    including Databricks Deltalake, Snowflake, and Hive/HQL
+    including Databricks Delta Lake, Snowflake, and Hive
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
