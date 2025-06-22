@@ -14,8 +14,9 @@ I pride myself in:
 
 -   Creating resilient, maintainable, integrous data products
 -   Authoring elegant, bulletproof, type-annotated, well-formed, thoroughly
-    tested, distributable Python libraries, CLIs, web APIs, and
-    SDKs
+    tested, well documented, distributable Python libraries, CLIs, web APIs,
+    SDKs, and Spark jobs
+-   Writing *readable* and efficient SQL
 -   Designing efficient, maintainable, testable, continuously integrated
     and deployed, modern software systems
 -   Planning development work with clarity, flexibility, parallel execution,
@@ -58,14 +59,15 @@ I have professional experience with (not exhaustive):
 **Distributed File Systems:** DBFS, S3, HDFS
 </small>
 
--   I lead a team of, variably, 4-8 data engineers in developing data and
-    software products supporting analysts, data scientists, environmental
-    scientists, product developers, and sustainability professionals in
-    assessing and mitigating Nike's environmental impacts
--   I redesigned and implemented ELT and ETL data pipelines leveraging
-    Databricks Delta Lake, Snowflake, and Amazon EMR—employing batch,
+-   I lead and mentored a team of, variably, 4-8 data engineers in developing
+    data and software products supporting analysts, data scientists,
+    environmental scientists, product developers, and sustainability
+    professionals in assessing and mitigating Nike's environmental impacts
+-   I implemented ELT and ETL data pipelines leveraging Databricks Delta Lake
+    (Python, Spark, and Spark SQL), Snowflake (Snowflake SQL), and Amazon EMR
+    (Python, Spark, HQL, and Spark SQL)—employing patterns using batch,
     micro-batch, streaming (Apache Kafka and Spark) and Delta live tables,
-    reducing compute costs by 80% as compared with legacy pipelines
+    reducing compute costs by 80% as compared with equivalent legacy pipelines
 -   I authored Python web APIs using FastAPI and SQLAlchemy
     on AWS Lambda, using Okta OAuth2 authentication, deployed using
     Terraform for infrastructure as code, to facilitate preemptive mitigation
