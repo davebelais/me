@@ -67,31 +67,32 @@ I have professional experience with (not exhaustive):
     micro-batch, streaming (Apache Kafka and Spark) and Delta live tables,
     reducing compute costs by 80% as compared with legacy pipelines
 -   I authored Python web APIs using FastAPI and SQLAlchemy
-    on AWS Lambda, using Terraform for infrastructure as code, and OAuth2
-    (Okta) for authentication, to facilitate preemptive mitigation of
-    environmental impacts by facilitating pre-manufacture scenario modeling
+    on AWS Lambda, using Okta OAuth2 authentication, deployed using
+    Terraform for infrastructure as code, to facilitate preemptive mitigation
+    of environmental impacts by facilitating pre-manufacture scenario modeling
     in product development systems
--   I designed our systems for calculating material
-    and product footprints as individually testable component libraries,
+-   I designed and built our systems for calculating material
+    and product footprints as individually testable component python libraries,
     permitting  us to fully employ test-driven development, and thereby
     safely make use of continuous integration and deployment
-    (CI/CD), permitting us to frequently release multiple features daily
--   I leveraged data models in our Databricks Delta Lake, Snowflake databases,
-    and (prior to 2023) S3/hive data lake incorporating type 2 slowly changing
-    dimensions in order to address obstacles to replicating historically
+    (CI/CD) with Jenkins and Github Actions, and permitting us to often
+    release multiple features daily
+-   I employed dimensional modeling and type 2 slowly changing
+    dimensions in our Databricks Delta Lake, Snowflake
+    databases, and (prior to 2023) S3/hive data lake in order to
+    address obstacles to replicating historically
     reported metrics (required for regulatory audits)
 -   I authored foundational data products exposing Environmental Health &
-    Safety data from our 3rd-party EHS reporting system, Enablon (incrementally
-    ingested via their "Blink" OData API), into our Databricks Delta Lake,
+    Safety data from our 3rd-party EHS reporting system, Enablon, incrementally
+    ingested via their Blink OData API, into our Databricks Delta Lake,
     Snowflake, and (prior to 2023) S3 + hive/presto data lake
--   I authored enterprise developer tools including CLIs (command line
-    interfaces) and frameworks (Python libraries) for use in CI/CD and locally,
-    numerous SDKs (software development kits) for internal and third-party
-    platforms, extended SQLAlchemy and Alembic to facilitate use of ORMs
-    (object relational mappings) across multiple dialects simultaneously, and
-    to facilitate common and complex data frame operations in Spark, validate
-    data products based on ORM metadata, securely retrieve managed credentials,
-    and many other common development tasks
+-   I authored enterprise developer tools including python CLIs (command line
+    interfaces), libraries, and SDKs (internal and 3rd party) for CI/CD
+    job deployment and orchestration on Databricks and Airflow, for
+    data validation, generating data model diagrams, schema versioning and
+    migration, and extending SQLAlchemy's ORM for simultaneous
+    multi-dialect support and view management supporting OLAP databases
+    including Databricks Deltalake, Snowflake, and Hive/HQL
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
@@ -226,11 +227,11 @@ Content".
 
 ## Education
 
-- Portland State University | Computer Science (Postbaccalaureate) | 2018
-- The Art Institute of Portland | Media Arts & Animation | Bachelor of
-  Science | 2007
-- Portland State University | Web Design | 2002 - 2004
-- Loyola Marymount University | Fine Arts | 2000 - 2001
+-   Portland State University | Computer Science (Postbaccalaureate) | 2018
+-   The Art Institute of Portland | Conmputer Generated Imaging, Visual Effect &
+    Animation | Bachelor of Science | 2007
+-   Portland State University | Web Design | 2002 - 2004
+-   Loyola Marymount University | Fine Arts | 2000 - 2001
 
 ## Open Source Projects
 
