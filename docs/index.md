@@ -52,7 +52,7 @@ I have professional experience with (not exhaustive):
 **Languages:** Python, SQL, Javascript<br/>
 **Databases and query engines:** Databricks Lakehouse, Delta lake,
     Snowflake, Terradata, Hive, Presto, PostgreSQL, Oracle, SQLite<br/>
-**Applications, Services and Frameworks:** Apache Spark, Apache Kafka,
+**Applications, Services and Frameworks:** Apache Spark, PySpark, Apache Kafka,
     SQLAlchemy, Alembic, FastAPI, Terraform, Docker, Linux, Github Actions,
     Jenkins, Hadoop, Copilot<br/>
 **Protocols and Specifications:** Open API (Swagger), ASGI<br/>
@@ -64,10 +64,11 @@ I have professional experience with (not exhaustive):
     environmental scientists, product developers, and sustainability
     professionals in assessing and mitigating Nike's environmental impacts
 -   I implemented ELT and ETL data pipelines leveraging Databricks Delta Lake
-    (Python, Spark, and Spark SQL), Snowflake (Snowflake SQL), and Amazon EMR
-    (Python, Spark, HQL, and Spark SQL)—employing patterns using batch,
-    micro-batch, streaming (Apache Kafka and Spark) and Delta live tables,
-    reducing compute costs by 80% as compared with equivalent legacy pipelines
+    (Python, PySpark/Spark, and Spark SQL), Snowflake (Snowflake SQL), and
+    Amazon EMR (Python, PySpark/Spark, HQL, and Spark SQL)—employing patterns
+    using batch, micro-batch, streaming (Apache Kafka and Spark) and Delta live
+    tables, reducing compute costs by 80% as compared with equivalent legacy
+    pipelines
 -   I authored Python web APIs using FastAPI and SQLAlchemy
     on AWS Lambda, using Okta OAuth2 authentication, deployed using
     Terraform for infrastructure as code, to facilitate preemptive mitigation
