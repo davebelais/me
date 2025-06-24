@@ -46,35 +46,25 @@ I have professional experience with (not exhaustive):
 
 ### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
-<small>
-**Platforms:** Databricks, Snowflake, Amazon Web Services
-    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
-**Languages:** Python, SQL, Javascript<br/>
-**Databases and query engines:** Databricks Lakehouse, Delta lake,
-    Snowflake, Terradata, Hive, Presto, PostgreSQL, Oracle, SQLite<br/>
-**Applications, Services and Frameworks:** Apache Spark, PySpark, Apache Kafka,
-    SQLAlchemy, Alembic, FastAPI, Terraform, Docker, Linux, Github Actions,
-    Jenkins, Hadoop, Copilot<br/>
-**Protocols and Specifications:** Open API (Swagger), ASGI<br/>
-**Distributed File Systems:** DBFS, S3, Hadoop/HDFS
-**CI/CD:** Jenkins, Github Actions
-</small>
-
 -   I lead and mentored a team of, variably, 4-8 data/software engineers in
     developing data and software products supporting analysts, data scientists,
     environmental scientists, product developers, and sustainability
     professionals in assessing and mitigating Nike's environmental impacts.
 -   I implemented ELT and ETL data pipelines leveraging Databricks Delta Lake
     using Python, PySpark, Spark SQL, Snowflake SQL, and
-    Amazon EMR (Python, PySpark, Spark SQL, and HQL)—employing patterns
-    using batch, micro-batch, streaming (Apache Kafka and Spark) and Delta live
-    tables, reducing compute costs by 80% as compared with equivalent legacy
-    pipelines.
+    Amazon EMR (Python, PySpark, Spark SQL, Hadoop/HDFS and Hive/HQL)—employing
+    patterns using batch, micro-batch, streaming (Apache Kafka and Spark) and
+    Delta live tables, CDC (change data capture) from Oracle and PostgreSQL,
+    and pub/sub from Amazon SQS and SNS. Overall, my redesign of Sustainability
+    Analytics' data pipelines reduced compute costs by 80% as compared with
+    equivalent legacy pipelines.
 -   I authored Python web APIs using FastAPI and SQLAlchemy
-    on AWS Lambda, using Okta OAuth2 authentication, and deployed using
-    Terraform for infrastructure as code. This web API facilitated preemptive
-    mitigation of environmental impacts by facilitating pre-manufacture
-    scenario modeling in client product development systems.
+    on AWS Lambda, using Okta OAuth2 authentication, Aurora PostgreSQL for
+    persistence, Route 53 and Amazon API Gateway to route requests,
+    deployed using Terraform for infrastructure-as-code.
+    This web API facilitated preemptive mitigation of environmental impacts by
+    facilitating pre-manufacture scenario modeling in client product
+    development systems.
 -   I designed and built complete systems for calculating material
     and product footprints comprised of individually testable component python
     libraries, permitting  us to fully employ test-driven development, and
@@ -102,20 +92,6 @@ I have professional experience with (not exhaustive):
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
- <small>
-**Platforms:** Snowflake, Amazon Web Services
-    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
-**Languages:** Python, SQL, Rust<br/>
-**Databases and query engines:** Snowflake, Terradata, Hive, Presto,
-    PostgreSQL, Oracle, SQLite <br/>
-**Applications, Services and Frameworks:** Apache Spark,
-    SQLAlchemy, Alembic, Docker, Linux, Terraform, Github Actions,
-    Jenkins, Hadoop<br/>
-**Protocols and Specifications:** Open API (Swagger)<br/>
-**Distributed File Systems:** S3, Hadoop/HDFS<br/>
-**CI/CD:** Jenkins, Github Actions
-</small>
-
 -   I lead and mentored a small team of 3-4 data engineers in building
     foundational data products supporting sustainability initiatives
 -   I developed a Python library augmenting the SQLAlchemy dialects for
@@ -141,43 +117,39 @@ I have professional experience with (not exhaustive):
 
 ### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
-<small>
-**Platforms:** Snowflake, Amazon Web Services
-    (AWS - including Lambda, EMR, Aurora, IAM, Cloudformation, EC2, S3)<br/>
-**Languages:** Python, SQL, Rust<br/>
-**Databases and query engines:** Snowflake, Terradata, Hive, Presto,
-    PostgreSQL, Oracle, SQLite<br/>
-**Applications, Services and Frameworks:** Apache Spark, SQLAlchemy, Alembic,
-    Docker, Linux, Jenkins, Hadoop<br/>
-**Protocols and Specifications:** Open API (Swagger), ASGI<br/>
-**Distributed File Systems:** S3, HDFS<br/>
-**Infrastructure as Code:** Terraform<br/>
-**CI/CD:** Jenkins
-</small>
+-   I created dimensional models for Sustainability Analytics' Snowflake
+    data warehouse and Amazon EMR Hive/S3 data lake
+-   I planned a Jira backlog/roadmap to integrate shadow tech developed
+    as part of a contract statement of work into data products and pipelines
+    aligned with Nike's enterprise data strategy and governance,
+    and supportable long-term by the Nike Global Technology organization
+-   I established Python + SQL exams for screening new hires to fill out
+    the additional engineering roles needed for the team
 
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
-<small>
-**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
-**Databases and query engines:** Netezza, Hive, Presto, SQL Server, IBM DB2,
-    SQLite, Apache Cassandra, Mongo DB<br/>
-**Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop,
-    Magento Commerce, IBM Websphere Commerce<br/>
-**Protocols and Specifications:** Open API (Swagger), SOAP, MIME,
-    AS2 (for GDSN data pools), WSGI<br/>
-**Distributed File Systems:** Hadoop/HDFS<br/>
-</small>
-
--   I lead development of data products marrying fact, dimensional and taxonomy
-    data from relational and NoSQL databases including Apache Cassandra, Mongo
-    DB, IBM DB2, Oracle, and SQL Server with sales and clickstream data from
-    Hadoop/HDFS on Cloudera, exposing analytics to
-    buyers and planners correlating digital and store sales and EBITDA with
-    inventory,sell-through, prices, and promotional events&#8212;contributing
-    to decisions resulting in a 56% increase in e-commerce sales in 2018 vs
-    2017, and a 67% increase in ecommerce sales in 2019 vs 2018.
--   Pricing/promotions and product information integration services for
-    Magento Commerce.
+-   I authored data products using Apache Spark (PySpark, Spark SQL) marrying
+    fact, dimensional and taxonomy data we ingested from click-streams using
+    Apache Kafka, enterprise system busses (in-store sales data) using
+    AS2/MIME (sync and async), NoSQL databases including Apache Cassandra and
+    Mongo DB, and produced data productspublished to transactional and
+    analytics databases and data lakes including IBM DB2, Oracle, Netezza,
+    Cloudera, Hadoop/HDFS Hive/Presto/Impala, and SQL Server. The data products
+    we produced correlating in-store and digital sales, EBIDTA, sell-through,
+    and pricing/promotions contributed to decisions resulting in a 56%
+    increase in e-commerce sales in 2018 vs 2017, and a 67% increase in
+    e-commerce sales in 2019 vs 2018.
+-   I developed integrations synchronizing in-store prices and promotions from
+    our ERP with Magento Commerce, developing a meta-programming library
+    for auto-generating Python SDKs based on that platform's Open API
+    (Swagger) schema which would later serve as the conceptual
+    seed for the [`oapi`](https://oapi.enorganic.org) Python library.
+-   I authored pricing feeds using Python, SQLAlchemy, and IBM DB2 resolving
+    type 2 slowly changing dimensions from enterprise pricing systems for
+    consumption by IBM Websphere Commerce (by way of Informatica),
+    synchronizing online with in-store pricing for ~140 disparate
+    sets of prices for 500,000+ SKUs frequently involving complex and
+    layered promotions and application of manufacturer and store coupons.
 
 <!--
 Note: the header above conveys a genericized role name based on current
@@ -187,29 +159,38 @@ Digital Analytics".
 
 ### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
-<small>
-**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
-**Databases and query engines:** Netezza, Hive, Presto, SQL Server, IBM DB2,
-    SQLite, Apache Cassandra, Mongo DB<br/>
-**Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop<br/>
-**Protocols and Specifications:** SOAP, MIME, AS2 (for GDSN data pools), WSGI
-</small>
-
--   I lead development of multi-platform (Spark/Hive/Presto, Netezza, DB2,
-    Python, SQL Server, SQLAlchemy)
-    OLAP and OLTP data products to ingest, consolidate and normalize sales,
-    dimensional, and click-stream data from disparate subsidiary and partner
-    systems' transactional databases, streaming platforms, APIs, and
-    mainframes.
--   I engineered algorithms for scoring semi-structured data and performing
-    human-in-the loop data validation and auditing for product descriptions,
-    specifications and photography acquired through trading partners
-    (Python, SQL).
--   I established source-management capabilities for inbound data to handle
-    complex retailer/vendor/manufacturer relationships (Python, SQL).
--   Collaborated with emerging digital initiatives to ensure the capture of all
-    metrics needed to facilitate accountability and continuous operational
-    improvement.
+-   I lead development of multi-platform transactional and analytics data
+    products consolidating and normalizing dimensional, fact, and click-stream
+    data from disparate subsidiary and partner systems' transactional
+    databases, streaming platforms, web APIs, mainframes and system busses
+    using Spark, Cloudera, Hadoop/HDFS, Hive/HQL, Presto, Netezza, IBM
+    DB2, Python, SQL Server, SQLAlchemy, Apache Cassandra, Mongo DB, and AS2.
+-   I engineered algorithms for scoring semi-structured data, and
+    performing human-in-the loop data validation and auditing for product
+    descriptions, specifications and photography acquired through trading
+    partners using Python, Flask, SQLalchemy, SQL Server, IBM DB2
+-   I established source management capabilities for identifying sourcing
+    and retrieval mechanisms for ingesting augmented product information
+    for digital sales channels using Python + Flask + SQLAlchemy +
+    SQL Server to manage complex distributor/vendor/manufacturer relationships—
+    integrating with multiple internal ERP systems, IBM DB2 and Oracle
+    data warehouses, GS1 SOAP/WSDL/XML web APIs, and XML documents from
+    GDSN data pools ingested via AS2.
+-   I worked with our team of digital content creators to
+    capture and assess productivity metrics for authoring of product page
+    and search attribution content, in order to facilitate nuanced
+    accountability and identify replicable patterns employed by the most
+    prolific authors. For this initiative I used Python, Pandas,
+    SQL Server, Flask, and SQLAlchemy. These efforts resulted in a
+    throughput increase per/author of greater than 100% every year,
+    and in 2018-2019 the teams I supported boasted overall per/associate output
+    greater than 7 times that of competing outsourced initiatives, while
+    maintaining 30% lower error rates as determined by internal audits
+    routinely performed by buyers and category managers.
+-   I developed an application facilitating internal review of digital content
+    for e-commerce product pages' accuracy and style utilized by stakeholders
+    (buyers, planners, and category managers) using a stack including Python,
+    Flask, SQLAlchemy, SQL Server, HTML, CSS, and Javascript.
 
 <!--
 Note: the header above conveys a genericized role name based on current
@@ -217,14 +198,7 @@ industry usage, for clarity. My official title was "Manager, Web & Digital
 Content".
 -->
 
-### The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
-
-<small>
-**Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
-**OLTP Databases:** SQL Server, IBM DB2, SQLite<br/>
-**Applications, Services and Frameworks:** SQLAlchemy<br/>
-**Protocols and Specifications:** SOAP, MIME, AS2 (for GDSN data pools)
-</small>
+### Compucom @ The Kroger Co. (Fred Meyer Stores Inc.) | Business Systems Analyst - Ecommerce | March 2011 - November 2013
 
 -   I researched, designed, and prototyped Fred Meyer's (and later Kroger's)
     product information management system for [customer-facing digital
@@ -232,19 +206,22 @@ Content".
 -   I collaborated with Fred Meyer's technology partner, 1WorldSync, to
     establish a roadmap, data model, and procedures for sourcing and validating
     product data from [GDSN](https://www.gs1.org/services/gdsn) data pools for
-    use in digital sales channels.
+    use in digital sales channels through SOAP/WSDL APIs and XML MIME/AS2
+    synchronous and asynchronous messaging protocols, landing the data in
+    Kroger's IBM DB2, Oracle, and SQL Server databases.
+-   I extracted and cleansed data from GDSN data pools using Python and lxml,
+    generating HTML/CSS/Javascript intranet pages and HTML emails for buyer
+    review, and collected feedback using forms leveraging
+    Python, SQLAlchemy, WSGI/Flask and SQL Server.
 
 ### Dissent Graphics Inc. | Full-Stack Developer | January 2008 - March 2011
-
-<small>
-**Languages:** Python, PHP, SQL, Javascript, Actionscript
-</small>
 
 -   I designed and developed web applications for clients including:
     The Garrigan Lyman Group, Microsoft, Best Buy, Avenue A Razorfish,
     Nereus Communications, BlackEyedPeas.com, TeeFury.com, the Travel Channel’s
     Man v. Food, TheWho.com, Custom Rights, Hello Minor, ExoticTravelers.com,
-    and the ACLU of Oregon.
+    and the ACLU of Oregon using Python, Django, PHP, SQL (MySQL and
+    PostgreSQL), Javascript, and Actionscript.
 
 ## Education
 
