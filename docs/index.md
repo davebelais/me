@@ -56,46 +56,49 @@ I have professional experience with (not exhaustive):
     SQLAlchemy, Alembic, FastAPI, Terraform, Docker, Linux, Github Actions,
     Jenkins, Hadoop, Copilot<br/>
 **Protocols and Specifications:** Open API (Swagger), ASGI<br/>
-**Distributed File Systems:** DBFS, S3, HDFS
+**Distributed File Systems:** DBFS, S3, Hadoop/HDFS
+**CI/CD:** Jenkins, Github Actions
 </small>
 
--   I lead and mentored a team of, variably, 4-8 data engineers in developing
-    data and software products supporting analysts, data scientists,
+-   I lead and mentored a team of, variably, 4-8 data/software engineers in
+    developing data and software products supporting analysts, data scientists,
     environmental scientists, product developers, and sustainability
-    professionals in assessing and mitigating Nike's environmental impacts
+    professionals in assessing and mitigating Nike's environmental impacts.
 -   I implemented ELT and ETL data pipelines leveraging Databricks Delta Lake
-    (Python, PySpark/Spark, and Spark SQL), Snowflake (Snowflake SQL), and
-    Amazon EMR (Python, PySpark/Spark, HQL, and Spark SQL)—employing patterns
+    using Python, PySpark, Spark SQL, Snowflake SQL, and
+    Amazon EMR (Python, PySpark, Spark SQL, and HQL)—employing patterns
     using batch, micro-batch, streaming (Apache Kafka and Spark) and Delta live
     tables, reducing compute costs by 80% as compared with equivalent legacy
-    pipelines
+    pipelines.
 -   I authored Python web APIs using FastAPI and SQLAlchemy
-    on AWS Lambda, using Okta OAuth2 authentication, deployed using
-    Terraform for infrastructure as code, to facilitate preemptive mitigation
-    of environmental impacts by facilitating pre-manufacture scenario modeling
-    in product development systems
--   I designed and built our systems for calculating material
-    and product footprints as individually testable component python libraries,
-    permitting  us to fully employ test-driven development, and thereby
-    safely make use of continuous integration and deployment
+    on AWS Lambda, using Okta OAuth2 authentication, and deployed using
+    Terraform for infrastructure as code. This web API facilitated preemptive
+    mitigation of environmental impacts by facilitating pre-manufacture
+    scenario modeling in client product development systems.
+-   I designed and built complete systems for calculating material
+    and product footprints comprised of individually testable component python
+    libraries, permitting  us to fully employ test-driven development, and
+    thereby safely make use of continuous integration and deployment
     (CI/CD) with Jenkins and Github Actions, and permitting us to often
-    release multiple features daily
+    release multiple features daily.
 -   I employed dimensional modeling and type 2 slowly changing
     dimensions in our Databricks Delta Lake, Snowflake
-    databases, and (prior to 2023) S3/hive data lake in order to
+    databases, and (prior to 2023) AWS EMR S3/hive data lake in order to
     address obstacles to replicating historically
-    reported metrics (required for regulatory audits)
--   I authored foundational data products exposing Environmental Health &
-    Safety data from our 3rd-party EHS reporting system, Enablon, incrementally
-    ingested via their Blink OData API, into our Databricks Delta Lake,
-    Snowflake, and (prior to 2023) S3 + hive/presto data lake
+    reported metrics which are required for regulatory audits.
+-   I authored foundational data products for our Environmental Health &
+    Safety data ingested from our 3rd-party EHS reporting system (Enablon)
+    via their OData API into our Databricks Delta Lake, Snowflake, and
+    (prior to 2023) AWS EMR + S3 + hive/presto data lake.
 -   I authored enterprise developer tools including python CLIs (command line
     interfaces), libraries, and SDKs (internal and 3rd party) for CI/CD
     job deployment and orchestration on Databricks and Airflow, for
     data validation, generating data model diagrams, schema versioning and
     migration, and extending SQLAlchemy's ORM for simultaneous
     multi-dialect support and view management supporting OLAP databases
-    including Databricks Delta Lake, Snowflake, and Hive
+    including Databricks Delta Lake, Snowflake, and Hive and extending
+    view management functionality to OLTP databases including PostgreSQL and
+    SQLite.
 
 ### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
@@ -109,20 +112,32 @@ I have professional experience with (not exhaustive):
     SQLAlchemy, Alembic, Docker, Linux, Terraform, Github Actions,
     Jenkins, Hadoop<br/>
 **Protocols and Specifications:** Open API (Swagger)<br/>
-**Distributed File Systems:** S3, HDFS
+**Distributed File Systems:** S3, Hadoop/HDFS<br/>
+**CI/CD:** Jenkins, Github Actions
 </small>
 
-I lead a team of data engineers in building foundational data products
-supporting sustainability initiatives:
-
--   I developed a SQLAlchemy-ORM-based framework for automating deployment and
-    versioning (schema migration) supporting all database dialects leveraged
-    by the Nike Enterprise Data & Analytics organization: Databricks,
-    Snowflake, Hive/Presto on S3, and PostgreSQL with full rollback
-    and versioning support.
--   I authored a framework for Sustainability Analytics' ETL jobs
-    incorporating end-to-end schema-based data validations, local testing, and
-    environment and file system abstraction.
+-   I lead and mentored a small team of 3-4 data engineers in building
+    foundational data products supporting sustainability initiatives
+-   I developed a Python library augmenting the SQLAlchemy dialects for
+    Snowflake SQL, Databricks SQL, and Hive/HQL to support full ORM (object
+    relational mapping) functionality, and to add view management
+    functionality for these dialects as well as PostgreSQL and SQLite,
+    in order to facilitate fully aligned multi-platform publication
+    of Nike data products for all databases/data lakes supported by
+    Nike Data and Analytics orgs. This facilitated seamless deployment
+    and validation of data products accessible on multiple platforms.
+-   I authored a framework (Python library) facilitating deployment of Nike
+    ELT/ETL Spark jobs seamlessly as either an Apache Airflow DAG, Spark on AWS
+    EMR job, or Spark on Databricks job, allowing us to use the most cost
+    effective solution for a given scenario, and saving upwards of 90%
+    on compute costs for small jobs and reducing compute time for several
+    large jobs (while moderately reducing cost) from hours to minutes.
+-   I authored a Python library abstracting and applying a common interface
+    (as well as aligning/adding support for date partitions and check-pointing)
+    to the various file systems leveraged by Nike including S3, DBFS,
+    Hadoop/HDFS, local/EBS, and Box. This foresight dramatically expedited
+    subsequent platform migrations from our S3/hive data lake and Snowflake
+    databases to Databricks Delta Lake.
 
 ### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
@@ -136,7 +151,8 @@ supporting sustainability initiatives:
     Docker, Linux, Jenkins, Hadoop<br/>
 **Protocols and Specifications:** Open API (Swagger), ASGI<br/>
 **Distributed File Systems:** S3, HDFS<br/>
-**Infrastructure as Code:** Terraform
+**Infrastructure as Code:** Terraform<br/>
+**CI/CD:** Jenkins
 </small>
 
 ### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
@@ -144,16 +160,18 @@ supporting sustainability initiatives:
 <small>
 **Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
 **Databases and query engines:** Netezza, Hive, Presto, SQL Server, IBM DB2,
-    SQLite<br/>
+    SQLite, Apache Cassandra, Mongo DB<br/>
 **Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop,
     Magento Commerce, IBM Websphere Commerce<br/>
 **Protocols and Specifications:** Open API (Swagger), SOAP, MIME,
     AS2 (for GDSN data pools), WSGI<br/>
+**Distributed File Systems:** Hadoop/HDFS<br/>
 </small>
 
-I lead development of:
-
--   Data products distilling and exposing analytics to
+-   I lead development of data products marrying fact, dimensional and taxonomy
+    data from relational and NoSQL databases including Apache Cassandra, Mongo
+    DB, IBM DB2, Oracle, and SQL Server with sales and clickstream data from
+    Hadoop/HDFS on Cloudera, exposing analytics to
     buyers and planners correlating digital and store sales and EBITDA with
     inventory,sell-through, prices, and promotional events&#8212;contributing
     to decisions resulting in a 56% increase in e-commerce sales in 2018 vs
@@ -172,7 +190,7 @@ Digital Analytics".
 <small>
 **Languages:** Python, SQL, Javascript, HTML, XML, WSDL<br/>
 **Databases and query engines:** Netezza, Hive, Presto, SQL Server, IBM DB2,
-    SQLite<br/>
+    SQLite, Apache Cassandra, Mongo DB<br/>
 **Applications, Services and Frameworks:**  SQLAlchemy, Flask, Hadoop<br/>
 **Protocols and Specifications:** SOAP, MIME, AS2 (for GDSN data pools), WSGI
 </small>
