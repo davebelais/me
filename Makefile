@@ -21,6 +21,8 @@ pdf:
 	hatch run python scripts/md2pdf.py && \
 	{ rm docs/resume.html || true ; } && \
 	mv docs/index.html docs/resume.html && \
+	{ rm docs/resume.txt || true ; } && \
+	mv docs/index.txt docs/resume.txt && \
 	{ rm docs/resume.pdf || true ; } && \
 	mv docs/index.pdf docs/resume.pdf && \
 	hatch run python scripts/md2pdf.py '../resume/**/*.md' && \

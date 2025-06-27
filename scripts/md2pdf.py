@@ -7,6 +7,7 @@ from functools import cache
 from glob import iglob
 from itertools import chain
 from pathlib import Path
+import re
 from shutil import which
 from subprocess import CalledProcessError, check_call
 from urllib.parse import quote_plus
@@ -99,6 +100,7 @@ def md2pdf(  # noqa: C901
     md_path: str | Path,
     *,
     template_path: str | Path | None = None,
+    txt_path: str | Path | None = None,
     pdf_path: str | Path | None = None,
     html_path: str | Path | None = None,
     options_path: str | Path | None = None,
@@ -122,6 +124,8 @@ def md2pdf(  # noqa: C901
             raise ValueError(options_path)
     if isinstance(html_path, str):
         html_path = Path(html_path)
+    if isinstance(txt_path, str):
+        txt_path = Path(txt_path)
     base_path: str = str(md_path).rpartition(".")[0]
     template_path = template_path or Path(f"{base_path}.template.html")
     if not template_path.is_file():
@@ -145,6 +149,16 @@ def md2pdf(  # noqa: C901
         html_path = f"{base_path}.html"
     with open(html_path, "w") as html_file:
         html_file.write(html)
+    if not txt_path:
+        txt_path = f"{base_path}.txt"
+    with open(txt_path, "w") as txt_file:
+        txt_file.write(
+            re.sub(
+                r"\n[ ]+",
+                " ",
+                md
+            ).replace("\n-   ", "\n- ")
+        )
     html2pdf(
         html_path,
         pdf_path=pdf_path,
