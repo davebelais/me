@@ -1,9 +1,9 @@
 {
-    "--scale": "0.4",
+    "--scale": "0.7",
     "--format": "Letter",
     "--marginTop": "0.25in",
     "--marginRight": "0.25in",
     "--marginBottom": "0.25in",
     "--marginLeft": "0.25in",
-    "--pageRanges": "1"
+    "--pageRanges": "1-10"
 }
