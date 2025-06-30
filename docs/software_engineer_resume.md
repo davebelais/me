@@ -126,6 +126,8 @@ I have professional experience with (not exhaustive):
 -   I established Python + SQL exams for screening new hires to fill out
     the additional engineering roles needed for the team
 
+<p style="page-break-after: always;" />
+
 ### The Kroger Co. | Lead Data/Software Engineer - Web & Digital Analytics | May 2018 - November 2019
 
 -   I authored data products using Apache Spark (PySpark, Spark SQL) marrying
