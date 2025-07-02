@@ -1,5 +1,7 @@
 # David Isaac Belais
 
+[<img src="./assets/images/pdf.svg" style="vertical-align: middle"/> Download PDF](resume.pdf)
+
 Portland OR |  503-267-0942  |
 [david@belais.me](mailto:david@belais.me) |
 [david.belais.me](https://david.belais.me) |

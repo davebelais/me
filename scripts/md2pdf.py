@@ -27,7 +27,13 @@ def md2html(md: str, template_path: Path = DEFAULT_TEMPLATE_PATH) -> str:
     Render markdown in the body of the specified template
     """
     html: str = markdown.markdown(
-        md, extensions=[tables.TableExtension()], tab_length=2
+        # Remove the resume download link
+        re.sub(
+            r"\n+[^\n]+resume.pdf\)",
+            "\n",
+            md
+        ),
+        extensions=[tables.TableExtension()], tab_length=2
     )
     with open(template_path) as template_io:
         return template_io.read().replace("{{body}}", html)
