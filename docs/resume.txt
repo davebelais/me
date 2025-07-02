@@ -5,7 +5,8 @@
 Portland OR |  503-267-0942  |
 [david@belais.me](mailto:david@belais.me) |
 [david.belais.me](https://david.belais.me) |
-[github.com/davebelais](https://github.com/davebelais)
+[github.com/davebelais](https://github.com/davebelais) |
+[www.linkedin.com/in/davidbelais](https://www.linkedin.com/in/davidbelais)
 
 ## Summary
 
