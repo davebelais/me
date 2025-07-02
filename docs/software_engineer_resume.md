@@ -173,7 +173,7 @@ Digital Analytics".
 -   I engineered algorithms for scoring semi-structured data, and
     performing human-in-the loop data validation and auditing for product
     descriptions, specifications and photography acquired through trading
-    partners using Python, Flask, SQLalchemy, SQL Server, IBM DB2
+    partners using Python, Flask, SQLalchemy, SQL Server, and IBM DB2.
 -   I established source management capabilities for identifying sourcing
     and retrieval mechanisms for ingesting augmented product information
     for digital sales channels using Python + Flask + SQLAlchemy +
