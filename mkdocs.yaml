@@ -70,3 +70,7 @@ extra_css:
   - assets/stylesheets/style.css
 extra_javascript:
   - assets/javascripts/extra.js
+extra:
+  analytics:
+    provider: google
+    property: G-PC1TMB6T6J

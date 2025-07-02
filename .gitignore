@@ -2,7 +2,6 @@
 **/.*
 build
 dist
-venv
 **.pyc
 **.pyo
 **.egg
@@ -15,3 +14,4 @@ pip-wheel-metadata
 !.gitignore
 !.editorconfig
 !.github
+site
