@@ -2,12 +2,12 @@
 import argparse
 import json
 import os
+import re
 from collections.abc import Iterable, Iterator
 from functools import cache
 from glob import iglob
 from itertools import chain
 from pathlib import Path
-import re
 from shutil import which
 from subprocess import CalledProcessError, check_call
 from urllib.parse import quote_plus
@@ -28,12 +28,9 @@ def md2html(md: str, template_path: Path = DEFAULT_TEMPLATE_PATH) -> str:
     """
     html: str = markdown.markdown(
         # Remove the resume download link
-        re.sub(
-            r"\n+[^\n]+resume.pdf\)",
-            "\n",
-            md
-        ),
-        extensions=[tables.TableExtension()], tab_length=2
+        re.sub(r"\n+[^\n]+resume.pdf\)", "\n", md),
+        extensions=[tables.TableExtension()],
+        tab_length=2,
     )
     with open(template_path) as template_io:
         return template_io.read().replace("{{body}}", html)
@@ -158,13 +155,7 @@ def md2pdf(  # noqa: C901
     if not txt_path:
         txt_path = f"{base_path}.txt"
     with open(txt_path, "w") as txt_file:
-        txt_file.write(
-            re.sub(
-                r"\n[ ]+",
-                " ",
-                md
-            ).replace("\n-   ", "\n- ")
-        )
+        txt_file.write(re.sub(r"\n[ ]+", " ", md).replace("\n-   ", "\n- "))
     html2pdf(
         html_path,
         pdf_path=pdf_path,

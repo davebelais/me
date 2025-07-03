@@ -62,9 +62,11 @@ I have professional experience with (not exhaustive):
     Analytics' data pipelines reduced compute costs by 80% as compared with
     equivalent legacy pipelines.
 -   I authored Python web APIs using FastAPI and SQLAlchemy
-    on AWS Lambda, using Okta OAuth2 authentication, Aurora PostgreSQL for
-    persistence, Route 53 and Amazon API Gateway to route requests,
-    deployed using Terraform for infrastructure-as-code.
+    deployed on both AWS Lambda and Docker/Kubernetes, using Okta OAuth2
+    authentication, Aurora PostgreSQL for persistence, Route 53 and
+    Amazon API Gateway to route requests, deployed using Terraform for
+    infrastructure-as-code to both AWS Lambda and as Docker containers
+    for Kubernetes orchestration.
     This web API facilitated preemptive mitigation of environmental impacts by
     facilitating pre-manufacture scenario modeling in client product
     development systems.
