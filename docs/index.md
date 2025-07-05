@@ -265,6 +265,7 @@ examples.
 
 ## Certifications
 
+- [Databricks Certified Data Engineer Associate](https://credentials.databricks.com/f7a47ab6-964a-4408-807d-e4b8effb2b00)
 - [JQL for Admins](https://university.atlassian.com/student/award/SbuF34YQEXwk3oDXv1coga2H)
 - [Jira Automation for Admins](https://university.atlassian.com/student/award/KPXH8RPefKoMhjUno6PSfQkA)
 - [AWS Certified Big Data - Specialty](https://www.youracclaim.com/badges/c9885f75-2b4e-42ea-b499-0f99eee3b7e9/public_url)

@@ -155,7 +155,14 @@ def md2pdf(  # noqa: C901
     if not txt_path:
         txt_path = f"{base_path}.txt"
     with open(txt_path, "w") as txt_file:
-        txt_file.write(re.sub(r"\n[ ]+", " ", md).replace("\n-   ", "\n- "))
+        txt_file.write(
+            re.sub(
+                r"\n[ ]+(?![\-#])", " ",
+                re.sub(
+                    r"(?<!\n)\n(?![ \-#\n])", " ", md
+                )
+            ).replace("\n-   ", "\n- ")
+        )
     html2pdf(
         html_path,
         pdf_path=pdf_path,
