@@ -47,7 +47,7 @@ I have professional experience with (not exhaustive):
 
 ## Experience
 
-### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
+### Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
 -   I lead and mentored a team of, variably, 4-8 data/software engineers in
     developing data and software products supporting analysts, data scientists,
@@ -95,7 +95,7 @@ I have professional experience with (not exhaustive):
     view management functionality to OLTP databases including PostgreSQL and
     SQLite.
 
-### BICP @ Nike | Lead Data Engineer - Sustainability Analytics | March 2020 - March 2021
+### BICP @ Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2020 - March 2021
 
 -   I lead and mentored a small team of 3-4 data engineers in building
     foundational data products supporting sustainability initiatives
@@ -120,7 +120,7 @@ I have professional experience with (not exhaustive):
     subsequent platform migrations from our S3/hive data lake and Snowflake
     databases to Databricks Delta Lake.
 
-### BICP @ Nike | Senior Data Engineer - Sustainability Analytics | January 2020 - March 2020
+### BICP @ Nike | Senior Software & Data Engineer - Sustainability Analytics | January 2020 - March 2020
 
 -   I created dimensional models for Sustainability Analytics' Snowflake
     data warehouse and Amazon EMR Hive/S3 data lake
@@ -133,13 +133,16 @@ I have professional experience with (not exhaustive):
 
 <p style="page-break-after: always;" />
 
-### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
+### The Kroger Co. | Senior Data Engineering Manager - Web & Digital Analytics | May 2018 - November 2019
 
+-   I lead and mentored a team of 3-5 engineers and analysts
+    in planning and implementing data products for consumption by enterprise
+    retail buyers, planners, and data scientists
 -   I authored data products using Apache Spark (PySpark, Spark SQL) marrying
     fact, dimensional and taxonomy data we ingested from click-streams using
     Apache Kafka, enterprise system busses (in-store sales data) using
     AS2/MIME (sync and async), NoSQL databases including Apache Cassandra and
-    Mongo DB, and produced data productspublished to transactional and
+    Mongo DB, and produced data products published to transactional and
     analytics databases and data lakes including IBM DB2, Oracle, Netezza,
     Cloudera, Hadoop/HDFS Hive/Presto/Impala, and SQL Server. The data products
     we produced correlating in-store and digital sales, EBIDTA, sell-through,
@@ -164,8 +167,12 @@ industry usage, for clarity. My official title was "Senior Manager, Web &
 Digital Analytics".
 -->
 
-### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
+### The Kroger Co. | Data Engineering Manager - Product Information Management | November 2013 - May 2018
 
+-   I lead and mentored a team of 3-5 engineers and analysts
+    in planning and implementing data products feeding enterprise e-commerce
+    applications and enterprise reporting consumed by retail buyers, planners,
+    and data scientists
 -   I lead development of multi-platform transactional and analytics data
     products consolidating and normalizing dimensional, fact, and click-stream
     data from disparate subsidiary and partner systems' transactional

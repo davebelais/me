@@ -5,7 +5,6 @@ SHELL := bash
 build:
 	{ hatch --version || pipx install --upgrade hatch || python3 -m pip install --upgrade hatch ; } && \
 	make install && \
-	hatch run python scripts/create_resume_variations.py && \
 	make pdf
 
 
