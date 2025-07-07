@@ -56,7 +56,7 @@ I have professional experience with (not exhaustive):
 
 <p style="page-break-after: always;" />
 
-### The Kroger Co. | Senior Data Engineering Manager - Web & Digital Analytics | May 2018 - November 2019
+### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
 - I lead and mentored a team of 3-5 engineers and analysts in planning and implementing data products for consumption by enterprise retail buyers, planners, and data scientists
 - I authored data products using Apache Spark (PySpark, Spark SQL) marrying fact, dimensional and taxonomy data we ingested from click-streams using Apache Kafka, enterprise system busses (in-store sales data) using AS2/MIME (sync and async), NoSQL databases including Apache Cassandra and Mongo DB, and produced data products published to transactional and analytics databases and data lakes including IBM DB2, Oracle, Netezza, Cloudera, Hadoop/HDFS Hive/Presto/Impala, and SQL Server. The data products we produced correlating in-store and digital sales, EBIDTA, sell-through, and pricing/promotions contributed to decisions resulting in a 56% increase in e-commerce sales in 2018 vs 2017, and a 67% increase in e-commerce sales in 2019 vs 2018.
@@ -66,7 +66,7 @@ I have professional experience with (not exhaustive):
 <!-- Note: the header above conveys a genericized role name based on current industry usage, for clarity. My official title was "Senior Manager, Web & Digital Analytics".
 -->
 
-### The Kroger Co. | Data Engineering Manager - Product Information Management | November 2013 - May 2018
+### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
 - I lead and mentored a team of 3-5 engineers and analysts in planning and implementing data products feeding enterprise e-commerce applications and enterprise reporting consumed by retail buyers, planners, and data scientists
 - I lead development of multi-platform transactional and analytics data products consolidating and normalizing dimensional, fact, and click-stream data from disparate subsidiary and partner systems' transactional databases, streaming platforms, web APIs, mainframes and system busses using Spark, Cloudera, Hadoop/HDFS, Hive/HQL, Presto, Netezza, IBM DB2, Python, SQL Server, SQLAlchemy, Apache Cassandra, Mongo DB, and AS2.

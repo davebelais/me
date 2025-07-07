@@ -133,7 +133,7 @@ I have professional experience with (not exhaustive):
 
 <p style="page-break-after: always;" />
 
-### The Kroger Co. | Senior Data Engineering Manager - Web & Digital Analytics | May 2018 - November 2019
+### The Kroger Co. | Lead Data Engineer - Web & Digital Analytics | May 2018 - November 2019
 
 -   I lead and mentored a team of 3-5 engineers and analysts
     in planning and implementing data products for consumption by enterprise
@@ -167,7 +167,7 @@ industry usage, for clarity. My official title was "Senior Manager, Web &
 Digital Analytics".
 -->
 
-### The Kroger Co. | Data Engineering Manager - Product Information Management | November 2013 - May 2018
+### The Kroger Co. | Lead Data Engineer - Product Information Management | November 2013 - May 2018
 
 -   I lead and mentored a team of 3-5 engineers and analysts
     in planning and implementing data products feeding enterprise e-commerce
