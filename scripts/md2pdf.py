@@ -157,10 +157,9 @@ def md2pdf(  # noqa: C901
     with open(txt_path, "w") as txt_file:
         txt_file.write(
             re.sub(
-                r"\n[ ]+(?![\-#])", " ",
-                re.sub(
-                    r"(?<!\n)\n(?![ \-#\n])", " ", md
-                )
+                r"\n[ ]+(?![\-#])",
+                " ",
+                re.sub(r"(?<!\n)\n(?![ \-#\n])", " ", md),
             ).replace("\n-   ", "\n- ")
         )
     html2pdf(

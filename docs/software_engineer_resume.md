@@ -11,7 +11,7 @@ Portland OR |  503-267-0942  |
 ## Summary
 
 I am a highly productive software and data engineer with 18 years of
-relevant experience.
+experience.
 
 I pride myself in:
 
