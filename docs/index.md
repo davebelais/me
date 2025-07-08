@@ -47,7 +47,7 @@ I have professional experience with (not exhaustive):
 
 ## Experience
 
-### Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2021 - June 2025
+### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
 -   I lead and mentored a team of, variably, 4-8 data/software engineers in
     developing data and software products supporting analysts, data scientists,
@@ -95,7 +95,7 @@ I have professional experience with (not exhaustive):
     view management functionality to OLTP databases including PostgreSQL and
     SQLite.
 
-### BICP @ Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2020 - March 2021
+### BICP @ Nike | Lead Applications Engineer - Sustainability Analytics | March 2020 - March 2021
 
 -   I lead and mentored a small team of 3-4 data engineers in building
     foundational data products supporting sustainability initiatives
@@ -120,7 +120,7 @@ I have professional experience with (not exhaustive):
     subsequent platform migrations from our S3/hive data lake and Snowflake
     databases to Databricks Delta Lake.
 
-### BICP @ Nike | Senior Software & Data Engineer - Sustainability Analytics | January 2020 - March 2020
+### BICP @ Nike | Senior Applications Engineer - Sustainability Analytics | January 2020 - March 2020
 
 -   I created dimensional models for Sustainability Analytics' Snowflake
     data warehouse and Amazon EMR Hive/S3 data lake

@@ -31,7 +31,7 @@ I have professional experience with (not exhaustive):
 
 ## Experience
 
-### Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2021 - June 2025
+### Nike | Lead Data Engineer - Sustainability Analytics | March 2021 - June 2025
 
 - I lead and mentored a team of, variably, 4-8 data/software engineers in developing data and software products supporting analysts, data scientists, environmental scientists, product developers, and sustainability professionals in assessing and mitigating Nike's environmental impacts.
 - I implemented ELT and ETL data pipelines leveraging Databricks Delta Lake using Python, PySpark, Spark SQL, Snowflake SQL, and Amazon EMR (Python, PySpark, Spark SQL, Hadoop/HDFS and Hive/HQL)—employing patterns using batch, micro-batch, streaming (Apache Kafka and Spark) and Delta live tables, CDC (change data capture) from Oracle and PostgreSQL, and pub/sub from Amazon SQS and SNS. Overall, my redesign of Sustainability Analytics' data pipelines reduced compute costs by 80% as compared with equivalent legacy pipelines.
@@ -41,14 +41,14 @@ I have professional experience with (not exhaustive):
 - I authored foundational data products for our Environmental Health & Safety data ingested from our 3rd-party EHS reporting system (Enablon) via their OData API into our Databricks Delta Lake, Snowflake, and (prior to 2023) AWS EMR + S3 + hive/presto data lake.
 - I authored enterprise developer tools including python CLIs (command line interfaces), libraries, and SDKs (internal and 3rd party) for CI/CD job deployment and orchestration on Databricks and Airflow, for data validation, generating data model diagrams, schema versioning and migration, and extending SQLAlchemy's ORM for simultaneous multi-dialect support and view management supporting OLAP databases including Databricks Delta Lake, Snowflake, and Hive and extending view management functionality to OLTP databases including PostgreSQL and SQLite.
 
-### BICP @ Nike | Lead Software & Data Engineer - Sustainability Analytics | March 2020 - March 2021
+### BICP @ Nike | Lead Applications Engineer - Sustainability Analytics | March 2020 - March 2021
 
 - I lead and mentored a small team of 3-4 data engineers in building foundational data products supporting sustainability initiatives
 - I developed a Python library augmenting the SQLAlchemy dialects for Snowflake SQL, Databricks SQL, and Hive/HQL to support full ORM (object relational mapping) functionality, and to add view management functionality for these dialects as well as PostgreSQL and SQLite, in order to facilitate fully aligned multi-platform publication of Nike data products for all databases/data lakes supported by Nike Data and Analytics orgs. This facilitated seamless deployment and validation of data products accessible on multiple platforms.
 - I authored a framework (Python library) facilitating deployment of Nike ELT/ETL Spark jobs seamlessly as either an Apache Airflow DAG, Spark on AWS EMR job, or Spark on Databricks job, allowing us to use the most cost effective solution for a given scenario, and saving upwards of 90% on compute costs for small jobs and reducing compute time for several large jobs (while moderately reducing cost) from hours to minutes.
 - I authored a Python library abstracting and applying a common interface (as well as aligning/adding support for date partitions and check-pointing) to the various file systems leveraged by Nike including S3, DBFS, Hadoop/HDFS, local/EBS, and Box. This foresight dramatically expedited subsequent platform migrations from our S3/hive data lake and Snowflake databases to Databricks Delta Lake.
 
-### BICP @ Nike | Senior Software & Data Engineer - Sustainability Analytics | January 2020 - March 2020
+### BICP @ Nike | Senior Applications Engineer - Sustainability Analytics | January 2020 - March 2020
 
 - I created dimensional models for Sustainability Analytics' Snowflake data warehouse and Amazon EMR Hive/S3 data lake
 - I planned a Jira backlog/roadmap to integrate shadow tech developed as part of a contract statement of work into data products and pipelines aligned with Nike's enterprise data strategy and governance, and supportable long-term by the Nike Global Technology organization
