@@ -5,10 +5,11 @@ edit_uri: blob/main/docs/
 nav:
 - Resume: 'index.md'
 - Open Source Projects:
+  - db-diagram: https://db-diagram.enorganic.org/
   - dependence: https://dependence.enorganic.org/
+  - git-author-stats: https://git-author-stats.enorganic.org/
   - oapi: https://oapi.enorganic.org/
   - maya-zen-tools: https://maya-zen-tools.enorganic.org/
-  - git-author-stats: https://github.com/enorganic/git-author-stats#git-author-stats
   - gittable: https://gittable.enorganic.org/
 theme:
   name: material
