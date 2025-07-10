@@ -272,6 +272,7 @@ examples.
 
 ## Certifications
 
+- [Databricks Certified Data Engineer Professional](https://credentials.databricks.com/b20e44e1-5d1e-456b-9528-6a350da4f7cf)
 - [Databricks Certified Data Engineer Associate](https://credentials.databricks.com/f7a47ab6-964a-4408-807d-e4b8effb2b00)
 - [JQL for Admins](https://university.atlassian.com/student/award/SbuF34YQEXwk3oDXv1coga2H)
 - [Jira Automation for Admins](https://university.atlassian.com/student/award/KPXH8RPefKoMhjUno6PSfQkA)

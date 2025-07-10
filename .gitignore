@@ -14,5 +14,6 @@ pip-wheel-metadata
 !.gitignore
 !.editorconfig
 !.github
+!.markdownlint.yaml
 site
 **/*~lock~
