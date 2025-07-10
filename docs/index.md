@@ -249,7 +249,9 @@ Content".
 
 ...because code examples are worth a thousand interview questions!
 
--   [git-author-stats](https://github.com/enorganic/git-author-stats#git-author-stats):
+-   [db-diagram](http://db-diagram.enorganic.org):
+    Zhuzh up your documentation with auto-generated database diagrams
+-   [git-author-stats](https://git-author-stats.enorganic.org):
     A CLI and library for extracting periodic author "stats" (insertions and
     deletions) for a Git repository or Github organization
 -   [dependence](https://dependence.enorganic.org/):

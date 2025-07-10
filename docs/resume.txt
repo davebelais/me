@@ -99,7 +99,8 @@ I have professional experience with (not exhaustive):
 
 ...because code examples are worth a thousand interview questions!
 
-- [git-author-stats](https://github.com/enorganic/git-author-stats#git-author-stats): A CLI and library for extracting periodic author "stats" (insertions and deletions) for a Git repository or Github organization
+- [db-diagram](http://db-diagram.enorganic.org): Zhuzh up your documentation with auto-generated database diagrams
+- [git-author-stats](https://git-author-stats.enorganic.org): A CLI and library for extracting periodic author "stats" (insertions and deletions) for a Git repository or Github organization
 - [dependence](https://dependence.enorganic.org/): A CLI and library for aligning a python projects' declared dependencies with the package versions installed in the environment in which dependence is executed, and for "freezing" recursively resolved package dependencies (like pip freeze, but for a package, instead of the entire environment).
 - [maya-zen-tools](https://maya-zen-tools.enorganic.org/): An Autodesk Maya extension providing modeling tools for manipulating a polygon mesh using dynamically created NURBS curves and surfaces to distribute vertices and/or UVs
 - [oapi](https://oapi.enorganic.org/): A python library for generating client SDKs from Open API documents
