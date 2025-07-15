@@ -26,7 +26,6 @@ I pride myself in:
     and collaboration in mind
 -   Leading engineering teams with complex and ambiguous directives towards
     clear, executable road maps
--   Condensing fact from the vapor of nuance
 
 ## Skills
 
@@ -205,6 +204,8 @@ Digital Analytics".
     for e-commerce product pages' accuracy and style utilized by stakeholders
     (buyers, planners, and category managers) using a stack including Python,
     Flask, SQLAlchemy, SQL Server, HTML, CSS, and Javascript.
+-   I developed solutions for monitoring and evaluating competitor prices
+    for both online and in-store sales channels.
 
 <!--
 Note: the header above conveys a genericized role name based on current
